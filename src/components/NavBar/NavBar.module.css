@@ -1,0 +1,40 @@
+.navContainer {
+    padding: 10px;
+}
+
+.navlinkBox {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navlink {
+    color: #333333;
+    text-decoration: none;
+    font-size: large;
+    font-family: Helvetica, sans-serif;
+}
+
+.navlink:hover {
+    color: #ad1457;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* .navlink::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background-color: #af2d2e;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.0s ease-in-out 0s;
+}
+
+.navlink:hover::before {
+    visibility: visible;
+    width: 10%;
+    transform: scaleX(1);
+} */

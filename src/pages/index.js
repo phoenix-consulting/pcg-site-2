@@ -1,5 +1,22 @@
 import React from "react"
+import Layout from '../components/Layout/Layout'
+import HomeBanner from '../components/HomeComponents/HomeBanner'
+import HomeAbout from '../components/HomeComponents/HomeAbout'
+import HomeCurr from '../components/HomeComponents/HomeCurr'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-export default function Home() {
-  return <div>Hello world!</div>
+
+const Home = () => {
+  return (
+    <div>
+    <Layout>
+      <HomeBanner/>
+      <HomeAbout/>
+      <HomeCurr/>
+    </Layout>
+    </div>
+  )
 }
+
+export default Home
+

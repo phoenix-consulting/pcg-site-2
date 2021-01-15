@@ -1,0 +1,42 @@
+.bannerBack {
+    background-color: whitesmoke;
+    height: 83vh;
+    padding-top: 25vh;
+}
+
+.bannerTitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.bannerHighlight {
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ad1457;
+}
+
+.bannerDescription {
+    margin-top: 25px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.bannerIconBox {
+    margin-top: 5vw;
+    text-align: center;
+}
+
+.bannerIcon {
+    color: #073763;
+}
+
+.bannerIcon:hover {
+    color: #ad1457;
+    transition: 0.2s;
+}

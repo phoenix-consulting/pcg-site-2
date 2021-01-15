@@ -1,0 +1,26 @@
+.bg {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+.grayBackground {
+    background-color: whitesmoke;
+}
+
+.navyBackground {
+    background-color: #073763;
+    color: white;
+}
+
+.infoSecTitle {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.infoSecDescription {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
