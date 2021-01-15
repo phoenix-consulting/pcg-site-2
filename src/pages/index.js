@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Home = () => {
   return (
     <div>
-    <Layout>
+    <Layout light={true}>
       <HomeBanner/>
       <HomeAbout/>
       <HomeCurr/>

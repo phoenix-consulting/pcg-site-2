@@ -16,7 +16,6 @@ const HomeCurr = () => {
         fontWeight: "lighter",
     }
 
-
     return (
         <InfoSec
             title="PHOENIX IN SPRING 2021"

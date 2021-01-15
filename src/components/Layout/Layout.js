@@ -4,11 +4,12 @@ import Footer from '../Footer/Footer'
 import 'antd/dist/antd.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const Layout = ({children}) => {
+const Layout = (props) => {
+    // Layout takes in a prop that determines whether or not the navBar is light
     return (
         <div>
-            <NavBar/>
-            {children}
+            <NavBar light={props.light}/>
+            {props.children}
             <Footer/>
         </div>
     )

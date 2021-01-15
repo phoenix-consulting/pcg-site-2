@@ -7,18 +7,30 @@ import Img from "gatsby-image"
 
 import styles from './NavBar.module.css'
 
-const NavBar = () => {
-    // TODO: Dark vs. Light NavBar
-    // TODO: Styling
+const NavBar = (props) => {
+    // We pass in a prop that tells us whether this guy is dark or light
+    const isLight = props.light;
 
-    console.log(styles);
+    // If the theme is light, then pass in light styles. If not, pass in dark styles.
+    const navLinkStyles = [styles.navlink];
+    const navElemStyles = [styles.navElement];
+    if (isLight) {
+        navLinkStyles.push(styles.navlinkLight);
+    } else {
+        navLinkStyles.push(styles.navlinkDark);
+        navElemStyles.push(styles.navElementDark);
+    }
 
-    // insert room to choose dark or light navbar here
-    // would look something like pushing the .Dark class onto everything
-    // for now, we'll go with a default light navbar
     const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "pcg-logo-dark.png" }) {
+      redLogo: file(relativePath: { eq: "pcg-logo-dark.png" }) {
+        childImageSharp {
+          fixed(width: 150) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      whiteLogo: file(relativePath: { eq: "pcg-logo-light.png" }) {
         childImageSharp {
           fixed(width: 150) {
             ...GatsbyImageSharpFixed
@@ -27,33 +39,38 @@ const NavBar = () => {
       }
     }
     `)
-    
     return (
-        <div>
+        <div className={navElemStyles.join(' ')}>
             <Navbar expand="lg">
                 <Container className={styles.navContainer}>
                     <Navbar.Brand>
                         <Link to='/'>
-                        <Img
-                            fixed={data.file.childImageSharp.fixed}
-                            alt="PCG logo"
-                        />
+                        {isLight ? (
+                            <Img
+                            fixed={data.redLogo.childImageSharp.fixed}
+                            alt="PCG logo"/>
+                        ) : (
+                            <Img
+                            fixed={data.whiteLogo.childImageSharp.fixed}
+                            alt="PCG logo"/>
+                        )
+                        }
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="navBarResponsive">
                     <Nav className='ml-auto'>
                         <Nav.Item className={styles.navlinkBox}>
-                            <Link to='/about' className={styles.navlink}>About</Link>
+                            <Link to='/about' className={navLinkStyles.join(' ')}>About</Link>
                         </Nav.Item>
                         <Nav.Item className={styles.navlinkBox}>
-                            <Link to='/projects' className={styles.navlink}>Projects</Link>
+                            <Link to='/projects' className={navLinkStyles.join(' ')}>Projects</Link>
                         </Nav.Item>
                         <Nav.Item className={styles.navlinkBox}>
-                            <a href="https://medium.com/@phoenixconsulting" className={styles.navlink}>Blog</a>
+                            <a href="https://medium.com/@phoenixconsulting" className={navLinkStyles.join(' ')}>Blog</a>
                         </Nav.Item>
                         <Nav.Item className={styles.navlinkBox}>
-                            <Link to='/join' className={styles.navlink}>Join</Link>
+                            <Link to='/join' className={navLinkStyles.join(' ')}>Join</Link>
                         </Nav.Item>
                     </Nav>
                     </Navbar.Collapse>

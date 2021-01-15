@@ -1,5 +1,9 @@
-.navContainer {
+.navElement {
     padding: 10px;
+}
+
+.navElementDark {
+    background-color: #ad1457;
 }
 
 .navlinkBox {
@@ -8,33 +12,58 @@
 }
 
 .navlink {
-    color: #333333;
     text-decoration: none;
     font-size: large;
+    font-weight: lighter;
     font-family: Helvetica, sans-serif;
+    position: relative;
 }
 
-.navlink:hover {
+.navlinkLight {
+    color: #333333;
+}
+
+.navlinkLight:hover {
     color: #ad1457;
     text-decoration: none;
     transition: 0.5s;
 }
 
-/* .navlink::before {
+.navlinkDark {
+    color: whitesmoke;
+}
+
+.navlinkDark:hover {
+    color: gray;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navlinkLight:before {
     content: "";
     position: absolute;
     width: 0;
     height: 2px;
-    bottom: -10px;
+    bottom: -2px;
     left: 0;
-    background-color: #af2d2e;
+    background-color: #ad1457;
     visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.0s ease-in-out 0s;
+    transition: all 0.3s ease-in-out;
 }
 
-.navlink:hover::before {
+.navlinkDark:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.navlink:hover:before {
     visibility: visible;
-    width: 10%;
-    transform: scaleX(1);
-} */
+    width: 100%;
+}
