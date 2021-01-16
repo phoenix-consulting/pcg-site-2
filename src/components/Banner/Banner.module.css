@@ -1,3 +1,39 @@
-.bg-gray {
-    background-color: lightgray;
+.bannerGen {
+    font-family: Helvetica, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bgGray {
+    background-color: whitesmoke;
+    color: #ad1457
+}
+
+.bgRed {
+    background-color: #ad1457;
+    color: white;
+}
+
+.bannerTitleRed {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.bannerMsgRed {
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+}
+
+.bannerTitleWhite {
+    font-weight: bold;
+    font-size: 25px;
+    color: #555555;
+}
+
+.bannerMsgWhite {
+    font-weight: lighter;
+    font-size: 25px;
+    color: #555555;
 }

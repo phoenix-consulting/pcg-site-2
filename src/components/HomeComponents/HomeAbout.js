@@ -11,11 +11,12 @@ import styles from './HomeAbout.module.css'
 import { count_up_objs } from '../../constants'
 
 const HomeAbout = () => {
+    // TODO: VISIBILITY SENSOR
     const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "group-shoot.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 2000) {
+          fluid(maxWidth: 1900) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -26,7 +27,7 @@ const HomeAbout = () => {
     const countups = count_up_objs.map((countUpObj) => {
         return (
             <Col sm>
-                <CountUp start={0} end={countUpObj.number} className={styles.countUpNumber}/>
+                <CountUp duration={10} start={0} end={countUpObj.number} className={styles.countUpNumber}/>
                 <p className={styles.countUpDescription}>{countUpObj.description}</p>
             </Col>
         )
