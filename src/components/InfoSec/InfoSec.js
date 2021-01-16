@@ -1,47 +1,62 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
 import styles from './InfoSec.module.css'
 
 // InfoSec makes use of the following props:
-// - Title
-// - Subtitle
-// - Alignment
-// It provides a good background and styling
+// - title --> directly passed in and styled
+// - subtitle --> directly passed in and styled
+// - alignment --> whether title/subtitle are aligned left (default), center, or right (deprecated)
+// - background --> background color // supported: white (default), gray, red, blue
 
 const InfoSec = (props) => {
-    // TODO: Styling and dynamic editing of alignment and background
-    const bg_styling = ['bg']
-    const bg_color = props.bg_color;
-    console.log(bg_color)
-    if (bg_color) {
-        bg_styling.push(bg_color);
-    }
-    const bg_styles = bg_styling.join(' ')
-    console.log(bg_styles)
 
-    // Alignment logic
-    const title_classes = []
-    if (props.alignment === "center") {
-        title_classes.push('center-align');
-    } else if (props.alignment === "right") {
-        title_classes.push('right-align');
-    } else {
-        title_classes.push('left-align');
+    const titleStyles = [styles.infoSecTitle];
+    const subtitleStyles = [styles.infoSecDescription];
+    const headerStyles = [];
+    const bgStyles = [styles.bg];
+
+    // Alignment Logic
+    if (props.alignment) {
+        if (props.alignment === "right") {
+            titleStyles.push(styles.rightTitle);
+            subtitleStyles.push(styles.rightTitle);
+        } else if (props.alignment === "center") {
+            titleStyles.push(styles.centerTitle);
+            subtitleStyles.push(styles.centerTitle);
+            headerStyles.push(styles.headerContainerCenter)
+        } else {
+            titleStyles.push(styles.leftTitle);
+            subtitleStyles.push(styles.leftTitle);
+            headerStyles.push(styles.headerContainerLeft)
+        }
     }
-    const classString = title_classes.join(' ');
+    // Background Logic
+    if (props.background) {
+        if (props.background === "blue") {
+            bgStyles.push(styles.navyTheme);
+            titleStyles.push(styles.navyThemeTitle);
+            subtitleStyles.push(styles.navyThemeTitle);
+        } else if (props.background === "gray") {
+            titleStyles.push(styles.grayThemeTitle);
+            bgStyles.push(styles.grayTheme);
+        } else if (props.background === "red") {
+            bgStyles.push(styles.redTheme);
+            titleStyles.push(styles.redThemeTitle);
+            subtitleStyles.push(styles.redThemeTitle);
+        } else {
+            titleStyles.push(styles.whiteThemeTitle);
+            bgStyles.push(styles.whiteTheme);
+        }
+    }
 
     return (
-        <div className={styles.bg}>
+        <div className={bgStyles.join(' ')}>
             <Container>
-                <Row>
-                <Col sm={8}>
-                <h1 className={styles.infoSecTitle}>{props.title}</h1>
-                <h2 className={styles.infoSecDescription}>{props.subtitle}</h2>
-                </Col>
-                </Row>
+                <div className={headerStyles.join(' ')}>
+                <h1 className={titleStyles.join(' ')}>{props.title}</h1>
+                <h2 className={subtitleStyles.join(' ')}>{props.subtitle}</h2>
+                </div>
             {props.children}
             </Container>
         </div>

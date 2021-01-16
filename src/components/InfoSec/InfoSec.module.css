@@ -2,16 +2,8 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
+    padding-bottom: 50px;
     font-family: Helvetica, sans-serif;
-}
-
-.grayBackground {
-    background-color: whitesmoke;
-}
-
-.navyBackground {
-    background-color: #073763;
-    color: white;
 }
 
 .infoSecTitle {
@@ -24,3 +16,74 @@
     font-size: 20px;
     font-weight: lighter;
 }
+
+.headerContainerLeft {
+    width: 65%;
+}
+
+.headerContainerCenter {
+    width: 65%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .headerContainerCenter {
+      width: 100%;
+    }
+
+    .headerContainerLeft {
+        width: 100%;
+    }
+}
+
+/* Alignment styling */
+.leftTitle {
+    text-align: left;
+}
+
+.centerTitle {
+    text-align: center;
+}
+
+.rightTitle {
+    text-align: right;
+}
+
+/* Styling for white background theme */
+.whiteTheme {
+    color: #3e3e3e;
+}
+
+.whiteThemeTitle {
+    color: #a4a4a4;
+}
+
+/* Styling for gray background theme */
+.grayTheme {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.grayThemeTitle {
+    color: #3e3e3e;
+}
+/* Styling for navy background theme */
+.navyTheme {
+    background-color: #073763;
+    color: whitesmoke;
+}
+
+.navyThemeTitle {
+    color: whitesmoke;
+}
+
+/* Styling for red background theme */
+.redTheme {
+    background-color: #ad1457;
+    color: whitesmoke;
+}
+
+.redThemeTitle {
+    color: whitesmoke;
+}
+

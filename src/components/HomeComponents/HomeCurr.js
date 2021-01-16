@@ -2,69 +2,66 @@ import React from 'react'
 import InfoSec from '../InfoSec/Infosec'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { Card } from 'antd'
+import Card from 'react-bootstrap/Card'
+import {Link} from 'gatsby'
 
 import styles from './HomeCurr.module.css'
+import { curr_sem_projs } from '../../constants'
 
-const HomeCurr = () => {
-    const card_head_style = {
-        fontFamily: "Helvetica",
+const HomeCurr = () => {    
+    const card_title_style = {
+        height: '5vh',
+        fontSize: '16px',
+        fontFamily: 'Helvetica, sans-serif',
+        fontWeight: 'bolder'
     }
 
-    const card_body_style = {
-        fontFamily: "Helvetica",
-        fontWeight: "lighter",
-    }
+
+    const clientCards = curr_sem_projs.map((cardObj) => {
+        return (
+            <Col sm>
+                <Card className={styles.cardStyle}>
+                    <Card.Body>
+                        <Card.Title style={card_title_style}>{cardObj.name}</Card.Title>
+                        <Card.Text>
+                            {cardObj.description}
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+        )
+    })
 
     return (
         <InfoSec
             title="PHOENIX IN SPRING 2021"
-            subtitle="This semester we again work with 4 clients of varying size and scope."
+            subtitle="This semester, our projects range from global expansion to DEI strategy."
+            alignment="center"
+            background="gray"
         >
         <Row className={styles.homeCards}>
-            <Col>
-                <Card 
-                hoverable
-                extra
-                bordered
-                title="Ambry Genetics" 
-                headStyle={card_head_style} 
-                bodyStyle={card_body_style}>Ambry is a market leader in genetic testing
-                and allows us to build on previous experience with Myriad Genetics and Amgen.</Card>
+            {clientCards}
+            <Col sm>
+                <Card className={styles.smallCardStyle}>
+                    <Card.Body >
+                        <Card.Title style={card_title_style}>Ready, Set, Startup!</Card.Title>
+                        <Card.Text>
+                            We're building a healthcare accelerator! Details still under wraps. Contact us if interested.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <Card className={styles.smallCardStyleBot}>
+                    <Card.Body>
+                        <Card.Title style={card_title_style}>Increasing Accessibility</Card.Title>
+                        <Card.Text>
+                            We're giving back to our campus through public events, speakers, and workshops.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
             </Col>
-            <Col>
-                <Card 
-                hoverable
-                extra
-                bordered
-                title="Clarigent Health" 
-                headStyle={card_head_style} 
-                bodyStyle={card_body_style}>A longstanding issue exacerbated by the COVID-19 Pandemic, mental
-                health has been getting acutely worse in America for years. We are excited to partner with Clarigent
-                Health, a company using AI to track mental health over time. </Card>
-            </Col>
-            <Col>
-                <Card 
-                hoverable
-                extra
-                bordered
-                title="Mental Health America" 
-                headStyle={card_head_style} 
-                bodyStyle={card_body_style}>Phoenix consults pro bono with a nonprofit every semester in an effort to
-                help members gain exposure to NPOs and give back to the health community. Established in the early 1900s
-                and having branches all over the nation, MHA is a unique opportunity for us to create huge impact immediately.</Card>
-            </Col>
-            <Col>
-                <Card 
-                hoverable
-                extra
-                bordered
-                title="Cedar-Sinai Accelerator" 
-                headStyle={card_head_style} 
-                bodyStyle={card_body_style}>Out of all the industries out there, structural inequality hits healthcare
-                the hardest. By partnering with a large hospital system's startup accelerator, we have a chance to concretely
-                make good on our commitments to racial equality.</Card>
-            </Col>
+        </Row>
+        <Row>
+            <h2 className={styles.readMore}>Read more about our projects <Link to="/projects" className={styles.readMoreLink}>here</Link>.</h2>
         </Row>
         </InfoSec>
     )

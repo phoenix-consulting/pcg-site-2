@@ -29,6 +29,12 @@ const Footer = () => {
     }
     `)
 
+    const socialLinks = social_media_links.map((linkObj) => {
+        return (
+            <div><a href={linkObj.link} className={styles.linkCatLink}>{linkObj.name}</a></div>
+        )
+    })
+
     return (
         <div>
             <Container className={styles.footerContainer}>
@@ -58,6 +64,7 @@ const Footer = () => {
                     </Col>
                     <Col sm>
                         <div className={styles.linkCatTitle}>Social Media</div>
+                        {socialLinks}
                     </Col>
                 </Row>
                 <Row>

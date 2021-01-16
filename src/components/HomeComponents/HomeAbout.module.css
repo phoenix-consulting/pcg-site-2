@@ -13,25 +13,32 @@
 .countUpDescription {
     font-size: 14px;
     font-weight: lighter;
-    width: 50%;
+    width: 65%;
 }
 
 .countUpArrow {
     padding-top: 15px;
     padding-bottom: 15px;
-    color: #ad1457;
+    color: #073763;
 }
 
-.countUpArrow:hover {  
-    background-color: #ad1457;
-    color: white;
+.countUpLink {
+    color:  #073763;
+    font-size: 14px;
+    font-weight: lighter;
+    width: 65%;
+}
+
+.countUpLink:hover {
+    text-decoration: none;
+    color: #ad1457;
     transition: 0.5s;
 }
 
 .pictureBuffer {
+    margin-left: 0px;
+    padding-left: 0px;
     background-color: whitesmoke;
 }
 
-.picture {
-    height: 40vh;
-}
+

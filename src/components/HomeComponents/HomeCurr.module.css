@@ -1,3 +1,86 @@
 .homeCards {
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.countUpArrow {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #073763;
+}
+
+.countUpLink {
+    color:  #073763;
+    font-size: 14px;
+    font-weight: lighter;
+    width: 65%;
+}
+
+.countUpLink:hover {
+    text-decoration: none;
+    color: #ad1457;
+    transition: 0.5s;
+}
+
+.countUpDescription {
+    font-size: 14px;
+    font-weight: lighter;
+    width: 65%;
+}
+
+.cardStyle {
+    height: 55vh;
+    box-shadow: 5px 5px 10px #afb0af;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #2891b5;
+    border-color: #2891b5;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.smallCardStyle {
+    height: 26vh;
+    box-shadow: 5px 5px 10px #afb0af;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: #073763;
+    border-color: #073763;
+    border-radius: 5px;
+    color: white;
+}
+
+.smallCardStyleBot {
+    height: 26vh;
+    box-shadow: 5px 5px 10px #afb0af;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: #ad1457;
+    border-color: #ad1457;
+    border-radius: 5px;
+    color: white;
+    margin-top: 3vh;
+}
+
+.readMore {
+    padding-top: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: auto;
+}
+
+.readMoreLink {
+    color: #073763;
+    text-decoration: none;
+}
+
+.readMoreLink:hover {
+    color: #ad1457;
+    text-decoration: none;
+    transition: 0.5s;
 }

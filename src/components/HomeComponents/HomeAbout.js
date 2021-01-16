@@ -7,22 +7,30 @@ import { ArrowRightOutlined } from '@ant-design/icons'
 import { Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-
 import styles from './HomeAbout.module.css'
+import { count_up_objs } from '../../constants'
 
 const HomeAbout = () => {
     const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "group-shoot.jpg" }) {
         childImageSharp {
-          fixed(width: 1000) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 2000) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
     `)
 
+    const countups = count_up_objs.map((countUpObj) => {
+        return (
+            <Col sm>
+                <CountUp start={0} end={countUpObj.number} className={styles.countUpNumber}/>
+                <p className={styles.countUpDescription}>{countUpObj.description}</p>
+            </Col>
+        )
+    })
 
     return (
         <div>
@@ -31,36 +39,27 @@ const HomeAbout = () => {
             subtitle="We’re a diverse community of engineers, scientists, business leaders, 
             and policymakers with one vision: train the healthcare leaders of tomorrow 
             by solving the healthcare problems of today. Our members grow together through 
-            high-impact consulting projects and our club is a hub for healthcare innovation.">
+            high-impact consulting projects and our club is a hub for healthcare innovation."
+            alignment="left"
+            background="white"
+        >
             <Row className={styles.homeAbout}>
+                {countups}
                 <Col sm>
-                    <CountUp start={0} end={4} duration={5} className={styles.countUpNumber}/>
-                    <p className={styles.countUpDescription}>projects every semester</p>
-                </Col>
-                <Col sm>
-                    <CountUp start={0} end={32} duration={5} className={styles.countUpNumber}/>
-                    <p className={styles.countUpDescription}>projects completed so far</p>
-                </Col>
-                <Col sm>
-                    <CountUp start={0} end={33} duration={5} className={styles.countUpNumber}/>
-                    <p className={styles.countUpDescription}>active members and over 70 alumni</p>
-                </Col>
-                <Col sm>
-                    <CountUp start={0} end={1} duration={5} className={styles.countUpNumber}/>
-                    <p className={styles.countUpDescription}>Phoenix family</p>
-                </Col>
-                <Col sm>
-                    <ArrowRightOutlined style={{fontSize: "65px", cursor: "pointer"}} className={styles.countUpArrow}/>
-                    <p className={styles.countUpDescription}>More about Phoenix</p>
+                    <ArrowRightOutlined href="/about" style={{fontSize: "65px"}} className={styles.countUpArrow}>
+                        <Link to="/about"></Link>
+                    </ArrowRightOutlined>
+                    <div>
+                        <Link to="/about" className={styles.countUpLink}>More about Phoenix</Link>
+                    </div>
                 </Col>
             </Row>
-        
         </InfoSec>
         <Row>
-            <Col>
-            <Img fixed={data.file.childImageSharp.fixed} alt="PCG logo" className={styles.picture}/>
+            <Col sm={8} style={{paddingRight: '0px'}}>
+            <Img fluid={data.file.childImageSharp.fluid} alt="PCG logo" className={styles.picture}/>
             </Col>
-            <Col className={styles.pictureBuffer}>
+            <Col className={styles.pictureBuffer} sm={4}>
             </Col>
         </Row>
         </div>
