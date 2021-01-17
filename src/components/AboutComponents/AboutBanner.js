@@ -8,8 +8,9 @@ const AboutBanner = () => {
     return (
         <div>
             <Banner
-                title="OUR MISSION"
-                message="We train the healthcare leaders of the future by solving the healthcare problems of today."
+                title="OUR CLUB"
+                message="We're a consulting firm, healthcare hub, and UC Berkeley student organization
+                invested in growth, impact, and community."
                 bg="red"
                 buttonMsg="Read more on our blog!"
                 buttonLink="https://medium.com/@phoenixconsulting"

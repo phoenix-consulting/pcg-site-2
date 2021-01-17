@@ -1,0 +1,19 @@
+.cardStyle {
+    height: 55vh;
+    box-shadow: 5px 5px 10px #afb0af;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color: #2891b5;
+    border-color: #2891b5;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.cardTitleStyle {
+    height: 5vh;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+}

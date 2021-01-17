@@ -9,20 +9,13 @@ import styles from './HomeCurr.module.css'
 import { curr_sem_projs } from '../../constants'
 
 const HomeCurr = () => {    
-    const card_title_style = {
-        height: '5vh',
-        fontSize: '16px',
-        fontFamily: 'Helvetica, sans-serif',
-        fontWeight: 'bolder'
-    }
-
 
     const clientCards = curr_sem_projs.map((cardObj) => {
         return (
             <Col sm>
                 <Card className={styles.cardStyle}>
                     <Card.Body>
-                        <Card.Title style={card_title_style}>{cardObj.name}</Card.Title>
+                        <Card.Title className={styles.cardTitleStyle}>{cardObj.name}</Card.Title>
                         <Card.Text>
                             {cardObj.description}
                         </Card.Text>
@@ -44,7 +37,7 @@ const HomeCurr = () => {
             <Col sm>
                 <Card className={styles.smallCardStyle}>
                     <Card.Body >
-                        <Card.Title style={card_title_style}>Ready, Set, Startup!</Card.Title>
+                        <Card.Title className={styles.cardTitleStyle}>Ready, Set, Startup!</Card.Title>
                         <Card.Text>
                             We're building a healthcare accelerator! Details still under wraps. Contact us if interested.
                         </Card.Text>
@@ -52,7 +45,7 @@ const HomeCurr = () => {
                 </Card>
                 <Card className={styles.smallCardStyleBot}>
                     <Card.Body>
-                        <Card.Title style={card_title_style}>Increasing Accessibility</Card.Title>
+                        <Card.Title className={styles.cardTitleStyle}>Increasing Accessibility</Card.Title>
                         <Card.Text>
                             We're giving back to our campus through public events, speakers, and workshops.
                         </Card.Text>

@@ -41,6 +41,13 @@
     cursor: pointer;
 }
 
+.cardTitleStyle {
+    height: 5vh;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
 .smallCardStyle {
     height: 26vh;
     box-shadow: 5px 5px 10px #afb0af;

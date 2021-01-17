@@ -10,7 +10,6 @@ const AboutExperience = () => {
                 us stay organized. Here are some of the ways our members contribute over time."
                 alignment="left"
                 background="white">
-
             </InfoSec>
         </div>
     )

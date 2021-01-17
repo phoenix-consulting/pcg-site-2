@@ -13,7 +13,14 @@
 
 .infoSecDescription {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.infoSecRegTitle {
+    font-size: 25px;
     font-weight: lighter;
 }
 
@@ -55,7 +62,7 @@
 }
 
 .whiteThemeTitle {
-    color: #a4a4a4;
+    color: #073763;
 }
 
 /* Styling for gray background theme */

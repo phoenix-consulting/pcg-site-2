@@ -38,17 +38,17 @@ const HomeContact = () => {
                 alignment="left"
                 background="white">
             <Row className={styles.contactRow}>
-                <Col sm>
+                <Col sm className={styles.contactCol}>
                     <h3 className={styles.contactTitle}>Useful Links</h3>
                     {socialMedia}
                 </Col>
-                <Col sm>
+                <Col sm className={styles.contactCol}>
                     <h3 className={styles.contactTitle}>For Students</h3>
                     <p>We’re looking for people excited to learn, solve problems, and make an impact.
                         If you’re interested, consider joining us!</p>
                     <Link to="/apply"><Button className={styles.contactButton} size='sm'>Apply</Button></Link>
                 </Col>
-                <Col sm>
+                <Col sm className={styles.contactCol}>
                     <h3 className={styles.contactTitle}>For Companies</h3>
                     <p>We’re looking for exciting companies and nonprofits to work with. 
                         If you’re interested in partnering with us, please reach out!</p>

@@ -21,7 +21,7 @@ const Banner = (props) => {
         bgStyles.push(styles.bgGray);
         titleStyles.push(styles.bannerTitleWhite);
         msgStyles.push(styles.bannerMsgWhite);
-        buttonStyles.push(stles.buttonGray);
+        buttonStyles.push(styles.buttonGray);
     }
 
     return (

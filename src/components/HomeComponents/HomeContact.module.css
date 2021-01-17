@@ -1,8 +1,13 @@
 .contactRow {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
+}
+
+.contactCol {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .contactButton {
