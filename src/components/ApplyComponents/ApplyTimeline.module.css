@@ -1,0 +1,12 @@
+.stepContainer {
+    text-align: left;
+}
+
+.step {
+    font-weight: lighter;
+    color: white;
+}
+
+.ant-steps-item-title {
+    color: white;
+}

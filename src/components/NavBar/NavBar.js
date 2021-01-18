@@ -70,7 +70,7 @@ const NavBar = (props) => {
                             <a href="https://medium.com/@phoenixconsulting" className={navLinkStyles.join(' ')}>Blog</a>
                         </Nav.Item>
                         <Nav.Item className={styles.navlinkBox}>
-                            <Link to='/join' className={navLinkStyles.join(' ')}>Join</Link>
+                            <Link to='/apply' className={navLinkStyles.join(' ')}>Join</Link>
                         </Nav.Item>
                     </Nav>
                     </Navbar.Collapse>

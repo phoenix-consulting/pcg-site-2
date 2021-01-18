@@ -91,7 +91,7 @@ const alumni_companies = [
     {name: "bain", pic: "bain.png"},
     {name: "bcg", pic: "bcg.png"},
     {name: "gatesfoundation", pic: "gatesfoundation.png"},
-    {name: "columbia", pic: "columbia.png"},
+    // {name: "columbia", pic: "columbia.png"},
     {name: "genentech", pic: "genentech.png"},
     {name: "google", pic: "google.png"},
     {name: "goldman", pic: "goldman.png"},
@@ -101,10 +101,21 @@ const alumni_companies = [
     {name: "morganstanley", pic: "morganstanley.png"},
     {name: "neuralink", pic: "neuralink.png"},
     {name: "roche", pic: "roche.png"},
-    {name: "stanford", pic: "stanford.png"},
-    {name: "forbes", pic: "forbes.jpg"},
     {name: "houseofreps", pic: "houseofreps.png"},
     {name: "verily", pic: "verily.png"}
+]
+
+const recruitment_events = [
+    {event: "Infosession 1", dateTime: "Thursday, 1/21 6-8pm"},
+    {event: "Office Hours", dateTime: "Friday, 1/22 11-4pm"},
+    {event: "Women's Event", dateTime: "Monday, 1/25 6-8pm"},
+    {event: "Infosession 2", dateTime: "Tuesday, 1/26 6-8pm"},
+    {event: "Office Hours", dateTime: "Wednesday, 1/27 6-8pm"},
+    {event: "Case Workshop", dateTime: "Thursday, 1/28 6-8pm"},
+    {event: "Application Due", dateTime: "Friday, 1/29 5pm"},
+    {event: "First Round Interviews", dateTime: "Sunday, 1/31"},
+    {event: "Meet Phoenix", dateTime: "Tuesday, 2/2"},
+    {event: "Group Interviews", dateTime: "Wednesday, 2/2"}
 ]
 
 export { social_media_links };
@@ -113,3 +124,4 @@ export { curr_sem_projs };
 export { home_carousel_testimonials };
 export { phoenix_role_cards };
 export { alumni_companies };
+export { recruitment_events };

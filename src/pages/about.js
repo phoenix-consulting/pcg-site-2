@@ -9,7 +9,7 @@ import AboutBeyond from '../components/AboutComponents/AboutBeyond'
 const About = () => {
     return (
         <div>
-        <Layout light={false}>
+        <Layout light={true}>
             <AboutBanner/>
             <AboutMission/>
             <AboutExperience/>

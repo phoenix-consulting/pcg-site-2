@@ -13,7 +13,7 @@ const AboutBeyond = () => {
 
     const company_logos = alumni_companies.map((companyObj) => {
         return (
-            <Col lg={3} className={styles.beyondImgContainer}>
+            <Col lg={2} className={styles.beyondImgContainer}>
                 <img className={styles.beyondImg} alt={companyObj.name} src={add_path(companyObj.pic)}/>
             </Col>
         )
@@ -23,8 +23,9 @@ const AboutBeyond = () => {
         <div>
             <InfoSec
                 title="BEYOND PHOENIX"
-                subtitle="Our members have continued their success across every conceivable industry."
-                background="white"
+                subtitle="Ou alumni and members work in almost every field, with a particular focus on deep tech, consulting,
+                finance, healthcare, and pharmaceuticals. Many also go on to pursue postgraduate degrees."
+                background="gray"
                 alignment="center"
             >
             <Row>

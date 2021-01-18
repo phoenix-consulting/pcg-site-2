@@ -59,3 +59,19 @@
     border-color: hsl(334, 33%, 46%);
     transition: 1.0s;
 }
+
+.buttonGray {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color:#ad1457;
+    border-color:#ad1457;
+    color: white;
+}
+
+.buttonGray:hover {
+    background-color: hsl(334, 33%, 46%);
+    color: white;
+    border-color: hsl(334, 33%, 46%);
+    transition: 1.0s;
+}
