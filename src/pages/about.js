@@ -4,6 +4,7 @@ import AboutBanner from '../components/AboutComponents/AboutBanner'
 import AboutMission from '../components/AboutComponents/AboutMission'
 import AboutImgBanner from '../components/AboutComponents/AboutImgBanner'
 import AboutExperience from '../components/AboutComponents/AboutExperience'
+import AboutBeyond from '../components/AboutComponents/AboutBeyond'
 
 const About = () => {
     return (
@@ -13,7 +14,7 @@ const About = () => {
             <AboutMission/>
             <AboutExperience/>
             <AboutImgBanner/>
-            
+            <AboutBeyond/>
         </Layout>
         </div>
     )

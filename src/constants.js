@@ -53,10 +53,63 @@ const home_carousel_testimonials = [
         `Phoenix Consulting did an excellent job by assisting Advent Access in our product development 
         processes as well as in conducting market research.`,
         author: "Advent Access"}
-    
+]
+
+const phoenix_role_cards = [
+    {position: "New Analysts", description: `New Analysts come from all different backgrounds, majors, and years. Many don't have "business" experience—and that's ok! 
+    In addition to their first project, new analysts participate in our New Member Education Program (NMEP), 
+    designed to develop members who can identify and solve healthcare problems. 
+    `},
+    {position: "Senior Analysts", description: `Senior analysts and associates are the driving force 
+    behind our client projects. They take the lead on work-streams, provide input to project leads, and 
+    often push their specific expertise—whether technical or something else—in project workflows. 
+    `},
+    {position: "Project Managers", description: `If senior analysts and associates are the driving force, project 
+    managers are the masterminds. They translate client specifications into deliverables, 
+    coordinate analysts to leverage their skills, and determine the overall direction of each project. 
+    PMs usually have 3-4 semesters of project experience.
+    `},
+    {position: "Principals", description: `Similar to project managers, principals are senior members with 3-4 
+    semesters of project experience. They are the PM’s alter ego, advising 
+    them on every decision. Principals also lead our non client-side projects.
+    `},
+    {position: "Executives", description: `Executive board members support the rest of the club and drive its growth. 
+    They plan recruitment, projects, and socials. They also look for ways to improve Phoenix’s output, 
+    reach, and member development.
+    `
+    },
+    {position: "Alumni", description: `Our alumni are graduates, but they aren't forgotten. Those around come out 
+    frequently to retreats and socials. Unless you’re George or Andrew, in which case you’re graduated and forgotten. 
+    `}
+]
+
+const alumni_companies = [
+    {name: "apple", pic: "apple.png"},
+    {name: "amazon", pic: "Amazon.png"},
+    {name: "amgen", pic: "amgen.png"},
+    {name: "accenture", pic: "accenture.png"},
+    {name: "bain", pic: "bain.png"},
+    {name: "bcg", pic: "bcg.png"},
+    {name: "gatesfoundation", pic: "gatesfoundation.png"},
+    {name: "columbia", pic: "columbia.png"},
+    {name: "genentech", pic: "genentech.png"},
+    {name: "google", pic: "google.png"},
+    {name: "goldman", pic: "goldman.png"},
+    {name: "janestreet", pic: "janestreet.png"},
+    {name: "johnsonandjohnson", pic: "johnsonandjohnson.png"},
+    {name: "mayoclinic", pic: "mayoclinic.png"},
+    {name: "morganstanley", pic: "morganstanley.png"},
+    {name: "neuralink", pic: "neuralink.png"},
+    {name: "roche", pic: "roche.png"},
+    {name: "stanford", pic: "stanford.png"},
+    {name: "forbes", pic: "forbes.jpg"},
+    {name: "houseofreps", pic: "houseofreps.png"},
+    {name: "verily", pic: "verily.png"}
 ]
 
 export { social_media_links };
 export { count_up_objs };
 export { curr_sem_projs };
 export { home_carousel_testimonials };
+export { phoenix_role_cards };
+export { alumni_companies };
