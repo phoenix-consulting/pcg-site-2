@@ -6,6 +6,11 @@
     font-family: Helvetica, sans-serif;
 }
 
+/* .containerPad {
+    padding-left: 40px;
+    padding-right: 40px;
+} */
+
 .infoSecTitle {
     font-size: 15px;
     font-weight: bolder;
@@ -62,7 +67,7 @@
 }
 
 .whiteThemeTitle {
-    color: #073763;
+    color: #3e3e3e;
 }
 
 /* Styling for gray background theme */
@@ -76,12 +81,12 @@
 }
 /* Styling for navy background theme */
 .navyTheme {
-    background-color: #073763;
-    color: whitesmoke;
+    background-color: #e4f1f5;
+    color: #555555;
 }
 
 .navyThemeTitle {
-    color: whitesmoke;
+    color: #555555;
 }
 
 /* Styling for red background theme */

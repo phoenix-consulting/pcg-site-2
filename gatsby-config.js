@@ -10,6 +10,13 @@ module.exports = {
     description: `We're a UC Berkeley student organization that consults for health sector problems.`
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: 0,
+        duration: 1000
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

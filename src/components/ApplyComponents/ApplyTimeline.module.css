@@ -1,12 +1,56 @@
-.stepContainer {
-    text-align: left;
+.timelineContainer {
+    width: 90%;
+    margin: auto;
 }
 
-.step {
+@media only screen and (max-width: 600px) {
+    .timelineContainer {
+      width: 100%;
+      margin: auto;
+    }
+}
+
+
+.timelineBigTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: #555555
+}
+
+.timelineEvent {
+    font-family: Helvetica, sans-serif;
     font-weight: lighter;
-    color: white;
+    font-size: 15px;
 }
 
-.ant-steps-item-title {
-    color: white;
+.timelineTitle {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.buttonContainer {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.Button {
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color:whitesmoke;
+    border-color:#ad1457;
+    color: #ad1457;
+}
+
+.Button:hover {
+    background-color: #ad1457;
+    color: whitesmoke;
+    border-color: #ad1457;
+    transition: 0.5s;
 }

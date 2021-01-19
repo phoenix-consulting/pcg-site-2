@@ -10,7 +10,7 @@ const ApplyBanner = () => {
                 community, check out the resources below."
                 buttonMsg="LinkTree"
                 buttonLink="https://linktr.ee/phoenixrecruitment"
-                bg="red"
+                bg="white"
             >
             </Banner>
         </div>

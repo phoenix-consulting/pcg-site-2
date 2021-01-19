@@ -69,9 +69,6 @@ const AboutImgBanner = () => {
         <div>
             <div className={styles.scrollingWrapper}>
                 <div className={styles.imgContainer}>
-                    <Img fluid={data.banquetBoat.childImageSharp.fluid} className={styles.imgBox}/>
-                </div>
-                <div className={styles.imgContainer}>
                     <Img fluid={data.beachGroup.childImageSharp.fluid} className={styles.imgBox}/>
                 </div>
                 <div className={styles.imgContainer}>

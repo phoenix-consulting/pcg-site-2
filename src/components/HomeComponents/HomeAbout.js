@@ -34,7 +34,7 @@ const HomeAbout = () => {
     })
 
     return (
-        <div>
+        <div id="homeaboutus">
         <InfoSec
             title="ABOUT US"
             subtitle="We’re a diverse community of engineers, scientists, business leaders, 

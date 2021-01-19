@@ -56,23 +56,23 @@ const home_carousel_testimonials = [
 ]
 
 const phoenix_role_cards = [
-    {position: "New Analysts", description: `New Analysts come from all different backgrounds, majors, and years. Many don't have "business" experience—and that's ok! 
+    {position: "New Analysts", description: `New Analysts come from all different backgrounds, majors, and years. Many don't have much experience—and that's ok! 
     In addition to their first project, new analysts participate in our New Member Education Program (NMEP), 
-    designed to develop members who can identify and solve healthcare problems. 
+    designed to develop thinkers who can identify and solve healthcare problems. 
     `},
     {position: "Senior Analysts", description: `Senior analysts and associates are the driving force 
     behind our client projects. They take the lead on work-streams, provide input to project leads, and 
-    often push their specific expertise—whether technical or something else—in project workflows. 
+    often push their specific expertise—whether technical, bio-related, or something else—in project workflows. 
     `},
     {position: "Project Managers", description: `If senior analysts and associates are the driving force, project 
-    managers are the masterminds. They translate client specifications into deliverables, 
+    managers are the masterminds behind our client projects. They translate client specifications into deliverables, 
     coordinate analysts to leverage their skills, and determine the overall direction of each project. 
     PMs usually have 3-4 semesters of project experience.
     `},
     {position: "Principals", description: `Similar to project managers, principals are senior members with 3-4 
-    semesters of project experience. They are the PM’s alter ego, advising 
-    them on every decision. Principals also lead our non client-side projects.
-    `},
+    semesters of project experience. They are the PM’s alter ego, disconfirming their biases and advising 
+    them on every decision. Principals also lead our non client-side projects. This semester, they're building
+    a healthcare accelerator and expanding our public presence.`},
     {position: "Executives", description: `Executive board members support the rest of the club and drive its growth. 
     They plan recruitment, projects, and socials. They also look for ways to improve Phoenix’s output, 
     reach, and member development.
@@ -106,16 +106,73 @@ const alumni_companies = [
 ]
 
 const recruitment_events = [
-    {event: "Infosession 1", dateTime: "Thursday, 1/21 6-8pm"},
-    {event: "Office Hours", dateTime: "Friday, 1/22 11-4pm"},
-    {event: "Women's Event", dateTime: "Monday, 1/25 6-8pm"},
-    {event: "Infosession 2", dateTime: "Tuesday, 1/26 6-8pm"},
-    {event: "Office Hours", dateTime: "Wednesday, 1/27 6-8pm"},
-    {event: "Case Workshop", dateTime: "Thursday, 1/28 6-8pm"},
-    {event: "Application Due", dateTime: "Friday, 1/29 5pm"},
-    {event: "First Round Interviews", dateTime: "Sunday, 1/31"},
-    {event: "Meet Phoenix", dateTime: "Tuesday, 2/2"},
-    {event: "Group Interviews", dateTime: "Wednesday, 2/2"}
+    {event: "Infosession 1", dateTime: "Thursday, 1/21 6-8pm", 
+    description: `Come meet our members and learn about Phoenix! 
+    We'd definitely like to meet you, no matter your major, year, or experience level. 
+    We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
+    {event: "Office Hours", dateTime: "Friday, 1/22 11-4pm",
+    description: `Drop by our Zoom link to ask us questions and get clarity on the application process. We'll
+    have a rotating cast of Phoenixers on—we'd be happy to tell you when members who align most with your interests
+    will be around.`},
+    {event: "Women's Event", dateTime: "Monday, 1/25 6-8pm",
+    description: `The women of Phoenix will present their experience in business in a slightly smaller setting.`},
+    {event: "Infosession 2", dateTime: "Tuesday, 1/26 6-8pm",
+    description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
+    projects, socials, and memories.`},
+    {event: "Office Hours Part II", dateTime: "Wednesday, 1/27 6-8pm",
+    description: `Same Zoom link, different Phoenix members!`},
+    {event: "Case Workshop", dateTime: "Thursday, 1/28 6-8pm",
+    description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
+    then split into smaller groups and go through an example case together.`},
+    {event: "Application Due", dateTime: "Friday, 1/29 5pm",
+    description: `Our application involves a couple of short answer questions and uploading a few documents like your resume.
+    Check out our recruitment guide and our FAQ for tips.`},
+    {event: "First Round Interviews", dateTime: "Sunday, 1/31",
+    description: `After we review applications, some candidates will be invited to schedule individual interviews. The interviews
+    will have a behavioral and a case component. Check out our recruitment guide for tips on preparation.`},
+    {event: "Meet Phoenix", dateTime: "Tuesday, 2/2",
+    description: `We'll invite successful first round candidates to a virtual social event! This event doesn't
+    factor into your candidacy, and it's your chance to meet members in a
+    more casual setting. In other words, it's a chance for you to see if we're a good fit for you. `},
+    {event: "Group Interviews", dateTime: "Wednesday, 2/2",
+    description: `Our final round interviews involve a more complex case than the individual round, one that's hard to
+    solve unless you work effectively with your group. For tips on how to prepare, check out our recruitment guide.`}
+]
+
+const student_faq = [
+    {question: "Why healthcare?",
+    answer: `Healthcare is, simply put, one of the most impactful domains around. Improvements save lives. 
+    Screw-ups lead to bad pandemics. It's also big. Domestically, we're talking about a $2.6 trillion dollar industry
+    that just keeps on growing. Finally, it's full of problems that are about to be solved.  To quote Andressen Horowitz, a leading venture capital firm: 
+    "Very rarely—perhaps even just once a generation—an extraordinary event 
+    or force comes along that completely transforms a stagnant industry. 
+    We are experiencing that moment right now in healthcare."`},
+    {question: "What exactly can I expect from a Phoenix project?",
+    answer: "Phoenix projects are semester-long consulting engagements with real-world clients. Your team will have 4-6 analysts, a principal, and a project manager. Over the semester, you’ll solve a business problem for your client by developing a set of actionable recommendations. Past deliverables have included go-to-market plans, financial analysis, product designs, and regulatory guides. Each project will give you industry-agnostic skills, deep domain knowledge, and build pieces of a powerful network."},
+    {question: "Wait, but I don’t really want to go into consulting. Is Phoenix still a good fit for me?",
+    answer: "While we have incredible pipelines into top consulting firms if you change your mind, 80% of Phoenix is just like you. We’re aspiring CEOs, engineers, scientists, doctors, policymakers, and more. We’re not really interested in consulting as a career. Most of us, however, are interested in two other things: finding the success we want and making an impact.",
+    answer2: "For the first, Phoenix provides industry-agnostic practice at communication, picking things up fast, and seeing the big picture. Our alumni everywhere from Stanford Med to Neuralink have noted these are common behaviors for success, especially in deeply technical fields. For the second, making an impact takes lots of practice. We believe the best way to practice is to solve healthcare problems where we stand. Since we’re students, solving those problems just happens to be called consulting :)"},
+    {question: "So what does Phoenix look for in candidates?",
+    answer: "While we appreciate a basic interest in healthcare, we don’t look for specific skill sets or experiences. Instead, our recruitment process gives applicants room to showcase their creativity, analytical thinking, tenacity, and collaboration skills. We’re also a community at heart, so we look for candidates who can be passionate about our mission, contribute socially, and bring diverse perspectives and backgrounds."},
+    {question: "What’s the time commitment for analysts?",
+    answer: "Time commitments vary based on the analyst, but average 10 hours per week for new analysts. For most Phoenix members, Phoenix is one of their largest—if not largest—extracurricular commitments."},
+    {question: "What’s the new analyst experience like?",
+    answer: "We’re deeply committed to helping new analysts succeed. We assign new members a buddy as soon as they join and a big later in their first semester. In addition to their first project, most new analysts also participate in our New Member Education Program (NMEP), designed to develop members who can identify and solve healthcare problems. And of course, everyone in Phoenix is out to lend a helping hand whenever needed."},
+    {question: "How can I take my best shot at applying?",
+    answer: "The best way is to attend one of our info sessions and our case workshop. They’ll give you deep insight into what we’re looking for, room to ask lots of questions, and practice with last semester’s interviews. You’ll also get to meet us—and we’re very excited to meet you! Beyond that, you can reach out for a more in-depth chat with a member by filling out our interest form. Finally, check out our recruitment guide on application and case interviews."}
+]
+// Note: Last question above has unspecified links embedded into the answer
+
+// First and last questions below have a link in the answer
+const company_faq = [
+    {question: "What is Phoenix Consulting Group?",
+    answer: "We’re a UC Berkeley student organization that consults for health-sector business problems. Our projects create value both for our clients and our analysts. Read more about our club"},
+    {question: "What does a Phoenix team look like?",
+    answer: "We staff teams consisting of 4-6 analysts, a project manager, and a principal. The project manager and principal communicate with clients and translate business objectives into project objectives. The analysts then fulfill these project objectives through data analysis, market research, and more."},
+    {question: "What’s a typical time frame, scope, and cost for a Phoenix project?",
+    answer: "Projects generally last one semester (13-14 weeks), with a midterm and final deliverable. Scopes range widely, but we tend to take on projects that are self-contained (we work remotely and asynchronously) and directly add value to clients’ businesses. Costs are benchmarked based on company size and type and project nature. Our external team typically negotiates this once projects are confirmed. Each semester, we take on one entirely pro bono project for a nonprofit organization."},
+    {question: "What kinds of clients and projects have you worked with/on in the past?",
+    answer: "Past clients span the biotech, healthcare, and life sciences industries, but also include tech companies with health initiatives, nonprofit organizations, and more. Project deliverables have included product mockups, international expansion strategies, drug pipeline analysis, and more. Our members span tech, policy, healthcare, finance, and biology, and Phoenix can take on projects in any of these areas. Read more about our projects"}
 ]
 
 export { social_media_links };
@@ -125,3 +182,5 @@ export { home_carousel_testimonials };
 export { phoenix_role_cards };
 export { alumni_companies };
 export { recruitment_events };
+export { student_faq };
+export { company_faq };

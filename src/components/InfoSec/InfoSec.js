@@ -60,6 +60,7 @@ const InfoSec = (props) => {
 
     return (
         <div className={bgStyles.join(' ')}>
+            <div className={styles.containerPad}>
             <Container>
                 <div className={headerStyles.join(' ')}>
                 <h1 className={titleStyles.join(' ')}>{props.title}</h1>
@@ -68,6 +69,7 @@ const InfoSec = (props) => {
                 </div>
             {props.children}
             </Container>
+            </div>
         </div>
     )
 };

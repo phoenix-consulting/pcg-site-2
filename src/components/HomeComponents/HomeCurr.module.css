@@ -34,10 +34,18 @@
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 14px;
-    background-color: #2891b5;
-    border-color: #2891b5;
+    background-color: #266f8b;
+    border-color: #266f8b;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.cardStyle:hover {
+    transform: translate3D(0,-1px,0) scale(1.05); /* move up slightly and zoom in */
+    box-shadow: 5px 5px 14px #afb0af;
+    transition: all .4s ease; /* zoom in */
     cursor: pointer;
 }
 
@@ -54,8 +62,8 @@
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 12px;
-    background-color: #073763;
-    border-color: #073763;
+    background-color: #e54a51;
+    border-color: #e54a51;
     border-radius: 5px;
     color: white;
 }
@@ -66,8 +74,8 @@
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 12px;
-    background-color: #ad1457;
-    border-color: #ad1457;
+    background-color: #e54a51;
+    border-color: #e54a51;
     border-radius: 5px;
     color: white;
     margin-top: 3vh;

@@ -1,9 +1,10 @@
 .navElement {
     padding: 10px;
+    background-color: transparent;
 }
 
 .navElementDark {
-    background-color: #ad1457;
+    background-color: whitesmoke;
 }
 
 .navlinkBox {
@@ -30,11 +31,11 @@
 }
 
 .navlinkDark {
-    color: whitesmoke;
+    color: black;
 }
 
 .navlinkDark:hover {
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -58,7 +59,7 @@
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: white;
+    background-color: black;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
 }

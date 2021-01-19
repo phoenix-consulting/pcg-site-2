@@ -1,13 +1,14 @@
 .cardStyle {
-    height: 37vh;
+    height: 50vh;
+    padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 5px 5px 10px #afb0af;
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
-    font-size: 14px;
-    background-color: #2891b5;
-    border-color: #2891b5;
+    font-size: 13px;
+    /* background-color: #266f8b;
+    border-color: #266f8b; */
     border-radius: 5px;
     color: white;
     cursor: pointer;

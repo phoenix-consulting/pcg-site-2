@@ -1,0 +1,17 @@
+.questionWrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.question {
+    font-weight: bolder;
+    color: #ad1457;
+    font-size: 15px;
+}
+
+.answer {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 14px;
+}

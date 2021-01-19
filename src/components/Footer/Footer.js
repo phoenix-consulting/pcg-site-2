@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { Link, useStaticQuery } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Img from "gatsby-image"
 
 // import images here
@@ -36,7 +37,7 @@ const Footer = () => {
     })
 
     return (
-        <div>
+        <div style={{backgroundColor: "#f5f5f5"}}>
             <Container className={styles.footerContainer}>
                 <Row> {/* This is the top row of the footer, containing everything except copyright */}
                     <Col sm>
@@ -53,13 +54,13 @@ const Footer = () => {
                     <Col sm>
                         <div className={styles.linkCatTitle}>Students</div>
                         <div><Link to='/apply' className={styles.linkCatLink}>Apply</Link></div>
-                        <div><Link to='/apply#FAQ' className={styles.linkCatLink}>FAQs</Link></div>
-                        <div><Link to='/apply#Contact' className={styles.linkCatLink}>Contact Us</Link></div>
+                        <div><AnchorLink to='/apply#faq' className={styles.linkCatLink}>FAQs</AnchorLink></div>
+                        <div><Link to='/apply' className={styles.linkCatLink}>Contact Us</Link></div>
                     </Col>
                     <Col sm>
                         <div className={styles.linkCatTitle}>Companies</div>
                         <div><Link to='/projects' className={styles.linkCatLink}>Projects</Link></div>
-                        <div><Link to='/contact#FAQ' className={styles.linkCatLink}>FAQs</Link></div>
+                        <div><AnchorLink to='/contact#FAQ' className={styles.linkCatLink}>FAQs</AnchorLink></div>
                         <div><Link to='/contact' className={styles.linkCatLink}>Contact Us</Link></div>
                     </Col>
                     <Col sm>

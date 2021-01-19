@@ -12,6 +12,13 @@ const AboutBeyond = () => {
     }
 
     const company_logos = alumni_companies.map((companyObj) => {
+        if (companyObj.name == "apple" || companyObj.name == "houseofreps") {
+            return (
+                <Col lg={2} className={styles.beyondImgContainer}>
+                    <img className={styles.appleImg} alt={companyObj.name} src={add_path(companyObj.pic)}/>
+                </Col>
+            )
+        }
         return (
             <Col lg={2} className={styles.beyondImgContainer}>
                 <img className={styles.beyondImg} alt={companyObj.name} src={add_path(companyObj.pic)}/>
@@ -25,7 +32,7 @@ const AboutBeyond = () => {
                 title="BEYOND PHOENIX"
                 subtitle="Ou alumni and members work in almost every field, with a particular focus on deep tech, consulting,
                 finance, healthcare, and pharmaceuticals. Many also go on to pursue postgraduate degrees."
-                background="gray"
+                background="white"
                 alignment="center"
             >
             <Row>

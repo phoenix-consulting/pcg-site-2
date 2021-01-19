@@ -23,12 +23,36 @@ const AboutExperience = () => {
     }
 
 
-    const experienceCards = phoenix_role_cards.map((roleObj) => {
+    const experienceCards = phoenix_role_cards.map((roleObj, index) => {
+        let color_string = "";
+
+
+        switch (index) {
+            case 0:
+                color_string = "#63aec7";
+                break;
+            case 1:
+                color_string = "#489fbe";
+                break;
+            case 2:
+                color_string = "#2a92b7";
+                break;
+            case 3:
+                color_string = "#166f8f";
+                break;
+            case 4:
+                color_string = "#02526f";
+                break;
+            case 5:
+                color_string = "#013d53";
+        }
+        console.log(color_string);
         return (
-            <Col lg={4} style={container_style}>
+            <Col lg={3} style={container_style}>
                 <InfoCard
                     title={roleObj.position}
-                    description={roleObj.description}>
+                    description={roleObj.description}
+                    backgroundColor={color_string}>
                 </InfoCard>
             </Col>
         )

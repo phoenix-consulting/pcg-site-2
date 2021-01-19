@@ -4,7 +4,11 @@
 }
 
 .beyondImg {
-    width: 120px;
+  width: 120px;
+}
+
+.appleImg {
+  width: 75px;
 }
 
 @media only screen and (max-width: 600px) {

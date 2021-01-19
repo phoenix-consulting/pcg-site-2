@@ -51,7 +51,7 @@ const NavBar = (props) => {
                             alt="PCG logo"/>
                         ) : (
                             <Img
-                            fixed={data.whiteLogo.childImageSharp.fixed}
+                            fixed={data.redLogo.childImageSharp.fixed}
                             alt="PCG logo"/>
                         )
                         }

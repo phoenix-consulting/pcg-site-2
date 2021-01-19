@@ -10,7 +10,7 @@
 }
 
 .bgRed {
-    background-color: #ad1457;
+    background-color: #7a0e1e;
     color: white;
 }
 
@@ -48,9 +48,9 @@
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     margin-top: 20px;
-    background-color:whitesmoke;
-    border-color:whitesmoke;
-    color: #555555;
+    background-color:#bde1ed;
+    border-color:#bde1ed;
+    color: #073763;
 }
 
 .buttonRed:hover {
@@ -64,14 +64,14 @@
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     margin-top: 20px;
-    background-color:#ad1457;
-    border-color:#ad1457;
+    background-color:#e54a51;
+    border-color:#e54a51;
     color: white;
 }
 
 .buttonGray:hover {
-    background-color: hsl(334, 33%, 46%);
-    color: white;
-    border-color: hsl(334, 33%, 46%);
-    transition: 1.0s;
+    background-color:white;
+    color: #e54a51;
+    border-color:#e54a51;
+    transition: 0.5s;
 }
