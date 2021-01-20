@@ -10,7 +10,7 @@ const AboutSponsors = () => {
     const sponsorAffiliate_logos = sponsors_and_affiliates.map((companyObj) => {
         return (
             <Col lg={2} className={styles.beyondImgContainer}>
-                <img className={styles.beyondImg} alt={companyObj.name} src={'/sponsorsaffiliates/' + companyObj.pic}/>
+                <img className={styles.beyondImg} alt={companyObj.name} src={'./sponsorsaffiliates/' + companyObj.pic}/>
             </Col>
         )
     })

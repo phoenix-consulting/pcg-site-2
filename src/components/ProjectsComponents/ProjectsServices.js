@@ -34,31 +34,31 @@ const ProjectsServices = () => {
             </div>
             <Row className={styles.servicesRow}>
                 <Col className={styles.serviceWrapper}>
-                <div><img className={styles.serviceImg} src="/services/corporate-strategy.png"/></div>
+                <div><img className={styles.serviceImg} src="./services/corporate-strategy.png"/></div>
                 <div className={styles.serviceTitle}>Corporate Strategy</div>
                 </Col>
                 <Col className={styles.serviceWrapper}>
-                <div><img className={styles.serviceImg} src="/services/financial-analysis.png"/></div>
+                <div><img className={styles.serviceImg} src="./services/financial-analysis.png"/></div>
                 <div className={styles.serviceTitle}>Financial and Data Analysis</div>
                 </Col>
             </Row>
             <Row className={styles.servicesRow}>
                 <Col className={styles.serviceWrapper}>
-                <div><img className={styles.serviceImg} src="/services/market-analysis.png"/></div>
+                <div><img className={styles.serviceImg} src="./services/market-analysis.png"/></div>
                 <div className={styles.serviceTitle}>Market Research</div>
                 </Col>
                 <Col className={styles.serviceWrapper}>
-                <div><img className={styles.serviceImg} src="/services/marketing.png"/></div>
+                <div><img className={styles.serviceImg} src="./services/marketing.png"/></div>
                 <div className={styles.serviceTitle}>Sales and Marketing</div>
                 </Col>
             </Row>
             <Row className={styles.servicesRow}>
                 <Col className={styles.serviceWrapper}>
-                <div><img className={styles.serviceImg} src="/services/operations.png"/></div>
+                <div><img className={styles.serviceImg} src="./services/operations.png"/></div>
                 <div className={styles.serviceTitle}>Operations Analysis and Management</div>
                 </Col>
                 <Col className={styles.serviceWrapper}>
-                <div><img className={styles.serviceImg} src="/services/product-development.png"/></div>
+                <div><img className={styles.serviceImg} src="./services/product-development.png"/></div>
                 <div className={styles.serviceTitle}>Product Design and Development</div>
                 </Col>
             </Row>

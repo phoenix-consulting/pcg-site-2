@@ -5,11 +5,13 @@
  */
 
 module.exports = {
+  pathPrefix: '/~pcg',
   siteMetadata: {
     title: `Phoenix Consulting Group`,
     description: `We're a UC Berkeley student organization that consults for health sector problems.`
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {

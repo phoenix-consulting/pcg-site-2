@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from '../components/SEO'
 import Layout from '../components/Layout/Layout'
 import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/Footer/Footer'
@@ -27,6 +28,7 @@ const Home = () => {
 
   return (
     <div>
+      <SEO/>
       <BackgroundImage fluid={data.file.childImageSharp.fluid} style=
       {{width: "100%", backgroundPosition: "100% -15%", backgroundSize: "contain"}}>
         <NavBar light={true}/>
