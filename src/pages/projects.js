@@ -12,8 +12,9 @@ const Projects = () => {
             <ProjectsBanner/>
             <ProjectsServices/>
             <ProjectsTimeline/>
-            <ProjectsCarousel/>
+            
             <PastProjects/>
+            <ProjectsCarousel/>
         </Layout>
     )
 }

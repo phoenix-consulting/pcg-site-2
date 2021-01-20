@@ -119,6 +119,29 @@ const research_institutions = [
     // {name: "lbl", pic: "lbl.png"},
 ]
 
+const sponsors_and_affiliates = [
+    {
+        name: "haas",
+        pic: "haas.png"
+    },
+    {
+        name: "berkeng",
+        pic: "berkeng.png"
+    },
+    {
+        name: "scet",
+        pic: "scet.png"
+    },
+    {
+        name: "zs",
+        pic: "zs.png"
+    },
+    {
+        name: "extreme",
+        pic: "extreme.png"
+    }
+]
+
 const projects_carousel = [
     {img: "", name: "Kaiser Permanente", 
     testimonial: `"In a short 12 week period, they quickly immersed themselves in understanding 
@@ -174,6 +197,69 @@ const project_timeline = [
         description: `Our projects wrap up around week 12-13 with an on site deliverable. Project managers 
         stay in contact with the client to gather feedback, plan follow up, and ensure successful handoff 
         of all materials.`
+    }
+]
+
+const past_projects = [
+    {
+        industry: "Medical Devices",
+        type: "Sales & Marketing",
+        image: "avive.png"
+    },
+    {
+        industry: "Insurtech",
+        type: "Product Development",
+        image: "clover.png"
+    },
+    {
+        industry: "Hospital Systems",
+        type: "DEI Strategy",
+        image: "commonspirit.png"
+    },
+    {
+        industry: "Software",
+        type: "Market Research",
+        image: "enzyme.png"
+    },
+    {
+        industry: "Elderly Care",
+        type: "Human Capital",
+        image: "hca.png"
+    },
+    {
+        industry: "Medical Devices",
+        type: "Sales & Marketing",
+        image: "hubly.png"
+    },
+    {
+        industry: "Healthcare",
+        type: "Market Research",
+        image: "kaiser.png"
+    },
+    {
+        industry: "Hospital Systems",
+        type: "Compliance and Innovation",
+        image: "lifebridge.png"
+    },
+    {
+        industry: "Medical Devices",
+        type: "Operations and Quality",
+        image: "medtronic.png"
+    },
+    {
+        industry: "Diagnostics",
+        type: "Financial Analysis",
+        image: "myriad.png"
+    },
+    {
+        industry: "Diagnostics",
+        type: "Financial Analysis",
+        image: "pinpoint.png"
+    },
+    {
+        industry: "Humanitarian Nonprofit",
+        type: "Data Analysis",
+        image: "redcross.png"
     }
 ]
 
@@ -259,4 +345,5 @@ export { alumni_companies };
 export { research_institutions };
 export { recruitment_events };
 export { student_faq };
-export { company_faq, projects_carousel, project_timeline };
+export { company_faq, projects_carousel, project_timeline, past_projects };
+export { sponsors_and_affiliates }

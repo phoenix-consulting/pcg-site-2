@@ -10,13 +10,13 @@ const ProjectsTimeline = () => {
         let color_string = "";
         switch (index) {
             case 0:
-                color_string = "#e54a51";
+                color_string = "#266f8b";
                 break;
             case 1:
-                color_string = "#e54a51";
+                color_string = "#266f8b";
                 break;
             case 2:
-                color_string = "#e54a51";
+                color_string = "#266f8b";
                 break;
             case 3:
                 color_string = "#e54a51";
@@ -42,7 +42,7 @@ const ProjectsTimeline = () => {
             <InfoSec 
             regtitle="Typical Project Timeline" 
             smallsubtitle="Phoenix generally takes on four 12-13 week client projects a semester."
-            background="gray"
+            background="white"
             >
             <div style={{display: "flex", flexWrap: "nowrap", overflowX: "auto"}}>
                 {timelineCards}

@@ -58,7 +58,7 @@ const AboutExperience = () => {
                 <InfoCard
                     title={roleObj.position}
                     description={roleObj.description}
-                    backgroundColor={color_string} height="47vh" width="">
+                    backgroundColor={color_string} height="55vh" width="">
                     
                 </InfoCard>
             </div>
