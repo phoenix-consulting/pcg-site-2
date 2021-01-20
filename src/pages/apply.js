@@ -10,7 +10,7 @@ const Apply = () => {
         <div>
         <Layout light={false}>
             <ApplyBanner/>
-            <ApplyVideo/>
+            {/* <ApplyVideo/> */}
             <ApplyTimeline/>
             <ApplyFAQ/>
         </Layout>

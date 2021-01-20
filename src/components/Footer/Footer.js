@@ -44,6 +44,12 @@ const Footer = () => {
                         <Link to='/'>
                             <Img fixed={data.file.childImageSharp.fixed} alt="PCG logo"/>
                         </Link>
+                        <div style={{marginTop: "20px"}}>
+                        <a href="https://www.ocf.berkeley.edu">
+                            <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+                                alt="Hosted by the OCF" style={{width: "30%"}}/>
+                        </a>
+                        </div>
                     </Col>
                     <Col sm>
                         <div className={styles.linkCatTitle}>General</div>
@@ -70,9 +76,8 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col className={styles.siteCustody}>
-                        <p>We are an independent group of the University of California and 
-                            we take full responsibility for this website.</p>
-                        <p>Built with love and React from 2020-2021. This website takes inspiration from those of Codebase, Blueprint, Blockchain@Berkeley, and Sequoia Capital.</p>
+                        <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p>
+                        <p>Built with love and React from 2020-2021. This website takes inspiration from those of Blockchain@Berkeley, Sequoia Capital, Codebase, and Blueprint.</p>
                     </Col>
                 </Row>
             </Container>

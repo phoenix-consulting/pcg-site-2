@@ -16,7 +16,7 @@ const ContactUsFAQ = () => {
 
 
     return (
-        <div>
+        <div id="FAQ">
             <InfoSec regtitle="Frequently Asked Questions" alignment="left" background="white">
                 {faq_questions}
             </InfoSec>
