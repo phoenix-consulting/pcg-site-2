@@ -66,6 +66,15 @@
     border-color: #e54a51;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.smallCardStyle:hover {
+    transform: translate3D(0,-1px,0) scale(1.05); /* move up slightly and zoom in */
+    box-shadow: 5px 5px 14px #afb0af;
+    transition: all .4s ease; /* zoom in */
+    cursor: pointer;
 }
 
 .smallCardStyleBot {
@@ -79,6 +88,15 @@
     border-radius: 5px;
     color: white;
     margin-top: 3vh;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.smallCardStyleBot:hover {
+    transform: translate3D(0,-1px,0) scale(1.05); /* move up slightly and zoom in */
+    box-shadow: 5px 5px 14px #afb0af;
+    transition: all .4s ease; /* zoom in */
+    cursor: pointer;
 }
 
 .readMore {

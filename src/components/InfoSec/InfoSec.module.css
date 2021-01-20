@@ -11,6 +11,13 @@
     padding-right: 40px;
 } */
 
+.infoSecSmallSub {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+
 .infoSecTitle {
     font-size: 15px;
     font-weight: bolder;

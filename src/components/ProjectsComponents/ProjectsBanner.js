@@ -7,7 +7,8 @@ const ProjectsBanner = () => {
             <Banner
                 title="CLIENT PROJECTS"
                 message="Phoenix takes on high-impact consulting projects involving health sector challenges."
-                buttonMsg="Work with us ->"
+                buttonMsg="Work With Us"
+                buttonLink="/contact"
                 background="white"
                 >
             </Banner>

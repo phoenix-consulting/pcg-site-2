@@ -16,6 +16,7 @@ const InfoSec = (props) => {
     const regtitleStyles = [styles.infoSecRegTitle];
     const headerStyles = [];
     const bgStyles = [styles.bg];
+    const smallSubStyles = [styles.infoSecSmallSub];
 
     // Alignment Logic
     if (props.alignment) {
@@ -23,15 +24,18 @@ const InfoSec = (props) => {
             titleStyles.push(styles.rightTitle);
             subtitleStyles.push(styles.rightTitle);
             regtitleStyles.push(styles.rightTitle);
+            smallSubStyles.push(styles.rightTitle);
         } else if (props.alignment === "center") {
             titleStyles.push(styles.centerTitle);
             subtitleStyles.push(styles.centerTitle);
             regtitleStyles.push(styles.centerTitle);
+            smallSubStyles.push(styles.centerTitle);
             headerStyles.push(styles.headerContainerCenter)
         } else {
             titleStyles.push(styles.leftTitle);
             subtitleStyles.push(styles.leftTitle);
             regtitleStyles.push(styles.leftTitle);
+            smallSubStyles.push(styles.leftTitle);
             headerStyles.push(styles.headerContainerLeft)
         }
     }
@@ -42,19 +46,23 @@ const InfoSec = (props) => {
             titleStyles.push(styles.navyThemeTitle);
             subtitleStyles.push(styles.navyThemeTitle);
             regtitleStyles.push(styles.navyThemeTitle);
+            smallSubStyles.push(styles.navyThemeTitle);
         } else if (props.background === "gray") {
             titleStyles.push(styles.grayThemeTitle);
             bgStyles.push(styles.grayTheme);
             regtitleStyles.push(styles.grayThemeTitle);
+            smallSubStyles.push(styles.grayThemeTitle);
         } else if (props.background === "red") {
             bgStyles.push(styles.redTheme);
             titleStyles.push(styles.redThemeTitle);
             subtitleStyles.push(styles.redThemeTitle);
             regtitleStyles.push(styles.redThemeTitle);
+            smallSubStyles.push(styles.redThemeTitle);
         } else {
             titleStyles.push(styles.whiteThemeTitle);
             bgStyles.push(styles.whiteTheme);
             regtitleStyles.push(styles.whiteThemeTitle);
+            smallSubStyles.push(styles.whiteThemeTitle);
         }
     }
 
@@ -66,6 +74,7 @@ const InfoSec = (props) => {
                 <h1 className={titleStyles.join(' ')}>{props.title}</h1>
                 <h1 className={regtitleStyles.join(' ')}>{props.regtitle}</h1>
                 <h2 className={subtitleStyles.join(' ')}>{props.subtitle}</h2>
+                <div className={smallSubStyles.join(' ')}>{props.smallsubtitle}</div>
                 </div>
             {props.children}
             </Container>

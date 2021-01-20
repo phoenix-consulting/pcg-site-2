@@ -51,6 +51,7 @@
     background-color:#bde1ed;
     border-color:#bde1ed;
     color: #073763;
+    width: 200px;
 }
 
 .buttonRed:hover {
@@ -64,14 +65,15 @@
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     margin-top: 20px;
-    background-color:#e54a51;
-    border-color:#e54a51;
+    background-color:#ad1457;
+    border-color:#ad1457;
     color: white;
+    width: 200px;
 }
 
 .buttonGray:hover {
     background-color:white;
-    color: #e54a51;
-    border-color:#e54a51;
+    color: #ad1457;
+    border-color:#ad1457;
     transition: 0.5s;
 }

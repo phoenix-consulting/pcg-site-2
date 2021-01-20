@@ -27,7 +27,7 @@ const HomeAbout = () => {
     const countups = count_up_objs.map((countUpObj) => {
         return (
             <Col sm>
-                <CountUp duration={10} start={0} end={countUpObj.number} className={styles.countUpNumber}/>
+                <CountUp duration={5} start={0} end={countUpObj.number} className={styles.countUpNumber}/>
                 <p className={styles.countUpDescription}>{countUpObj.description}</p>
             </Col>
         )

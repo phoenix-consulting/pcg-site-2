@@ -91,19 +91,94 @@ const alumni_companies = [
     {name: "bain", pic: "bain.png"},
     {name: "bcg", pic: "bcg.png"},
     {name: "gatesfoundation", pic: "gatesfoundation.png"},
-    // {name: "columbia", pic: "columbia.png"},
+    // {name: "forbes", pic: "forbes.jpg"},
     {name: "genentech", pic: "genentech.png"},
     {name: "google", pic: "google.png"},
     {name: "goldman", pic: "goldman.png"},
     {name: "janestreet", pic: "janestreet.png"},
     {name: "johnsonandjohnson", pic: "johnsonandjohnson.png"},
-    {name: "mayoclinic", pic: "mayoclinic.png"},
+    // {name: "mayoclinic", pic: "mayoclinic.png"},
     {name: "morganstanley", pic: "morganstanley.png"},
+    {name: "nasa", pic: "nasa.png"},
     {name: "neuralink", pic: "neuralink.png"},
     {name: "roche", pic: "roche.png"},
     {name: "houseofreps", pic: "houseofreps.png"},
     {name: "verily", pic: "verily.png"}
 ]
+
+const research_institutions = [
+    // {name: "columbia", pic: "columbia.png"},
+    // {name: "stanford", pic: "stanford.png"},
+    {name: "hms", pic: "hms.png"},
+    {name: "stanfordmed", pic: "stanfordmed.png"},
+    {name: "mayoclinic", pic: "mayoclinic.png"},
+    {name: "ucsf", pic: "ucsf.png"},
+    {name: "gladstone", pic: "gladstone.png"},
+    // {name: "nasaames", pic: "nasaames.png"},
+    {name: "igi", pic: "igi.png"},
+    // {name: "lbl", pic: "lbl.png"},
+]
+
+const projects_carousel = [
+    {img: "", name: "Kaiser Permanente", 
+    testimonial: `"In a short 12 week period, they quickly immersed themselves in understanding 
+    our complex organization, the key issues to address and met all milestones and deliverables. 
+    Their insights generated many in-depth discussions within our group which helped us approach 
+    our work more effectively."`},
+    {img: "", name: "Cadence Health", testimonial: `"We worked with Phoenix during a key time of growth for our business. 
+    I had high expectations—which were nonetheless exceeded—and the quality of work 
+    was on par with industry consultants with years of professional experience. Their contributions have been 
+    strong and actionable, and we are using the results of the work to inform key strategic decisions."`},
+    {img: "", name: "Amgen", testimonial: `"Our experience with the Phoenix Consulting team was very positive. They helped us define the business case for the novel use of augmented reality 
+    technology in both clinical trials and the commercial market. I was impressed by the amount of work they put in, 
+    and the thoughtful, research-supported arguments they put forth. 
+    We would not hesitate to work with Phoenix Consulting again."`},
+    {img: "", name: "Advent Access", testimonial: `"Phoenix Consulting did an excellent job by assisting Advent 
+    Access in our product development processes as well as in conducting market research. We were impressed by 
+    their ability to quickly generate insights to key issues in the complex dialysis market landscape. 
+    They have made valuable contributions to our business development and we are very satisfied with the 
+    overall result."`},
+]
+
+const services_info = [
+    {
+        service: "Corporate Strategy",
+        description: `Phoenix has assisted `
+
+
+    }
+]
+
+const project_timeline = [
+    {
+        stage: "First Contact",
+        description: `Our account managers and external vice president review interested clients and 
+        source new projects.`
+    },
+    {
+        stage: "Scoping",
+        description: `Our external team hands off contact to a project manager, 
+        who will scope and timeline the project while balancing Phoenix resources and client business needs.`
+    },
+    {
+        stage: "Kickoff",
+        description: `After we’ve welcomed our new members at a retreat, we staff our projects and start work!`
+    },
+    {
+        stage: "Midterm Check-In",
+        description: `After 5-6 weeks, project managers will schedule a formal presentation to 
+        update clients on our progress and rescope if necessary.`
+    },
+    {
+        stage: "Final Deliverable",
+        description: `Our projects wrap up around week 12-13 with an on site deliverable. Project managers 
+        stay in contact with the client to gather feedback, plan follow up, and ensure successful handoff 
+        of all materials.`
+    }
+]
+
+
+
 
 const recruitment_events = [
     {event: "Infosession 1", dateTime: "Thursday, 1/21 6-8pm", 
@@ -166,13 +241,13 @@ const student_faq = [
 // First and last questions below have a link in the answer
 const company_faq = [
     {question: "What is Phoenix Consulting Group?",
-    answer: "We’re a UC Berkeley student organization that consults for health-sector business problems. Our projects create value both for our clients and our analysts. Read more about our club"},
+    answer: "We’re a UC Berkeley student organization that consults for health-sector business problems. Our projects create value both for our clients and our analysts. You can find out more about our club on the About page."},
     {question: "What does a Phoenix team look like?",
     answer: "We staff teams consisting of 4-6 analysts, a project manager, and a principal. The project manager and principal communicate with clients and translate business objectives into project objectives. The analysts then fulfill these project objectives through data analysis, market research, and more."},
     {question: "What’s a typical time frame, scope, and cost for a Phoenix project?",
     answer: "Projects generally last one semester (13-14 weeks), with a midterm and final deliverable. Scopes range widely, but we tend to take on projects that are self-contained (we work remotely and asynchronously) and directly add value to clients’ businesses. Costs are benchmarked based on company size and type and project nature. Our external team typically negotiates this once projects are confirmed. Each semester, we take on one entirely pro bono project for a nonprofit organization."},
     {question: "What kinds of clients and projects have you worked with/on in the past?",
-    answer: "Past clients span the biotech, healthcare, and life sciences industries, but also include tech companies with health initiatives, nonprofit organizations, and more. Project deliverables have included product mockups, international expansion strategies, drug pipeline analysis, and more. Our members span tech, policy, healthcare, finance, and biology, and Phoenix can take on projects in any of these areas. Read more about our projects"}
+    answer: "Past clients span the biotech, healthcare, and life sciences industries, but also include tech companies with health initiatives, nonprofit organizations, and more. Project deliverables have included product mockups, international expansion strategies, drug pipeline analysis, and more. Our members span tech, policy, healthcare, finance, and biology, and Phoenix can take on projects in any of these areas. Feel free to read more about our projects on the Projects page."}
 ]
 
 export { social_media_links };
@@ -181,6 +256,7 @@ export { curr_sem_projs };
 export { home_carousel_testimonials };
 export { phoenix_role_cards };
 export { alumni_companies };
+export { research_institutions };
 export { recruitment_events };
 export { student_faq };
-export { company_faq };
+export { company_faq, projects_carousel, project_timeline };

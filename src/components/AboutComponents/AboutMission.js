@@ -23,7 +23,7 @@ const AboutMission = () => {
             <InfoSec
                 regtitle="Mission Statement"
                 alignment="center"
-                background="blue"
+                background="gray"
             >
             <div>
             <h3 className={styles.missionStatement}>We train the healthcare leaders of tomorrow by solving the healthcare problems of today.</h3>

@@ -1,0 +1,37 @@
+.servicesWrapper {
+    padding: 30px;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.servicesTotalTitle {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #555555;
+}
+
+.servicesSubtitle {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.servicesRow {
+    margin-top: 30px;
+    color: #555555;
+}
+
+.serviceWrapper {
+}
+
+.serviceTitle {
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+.serviceImg {
+    width: 45px;
+}

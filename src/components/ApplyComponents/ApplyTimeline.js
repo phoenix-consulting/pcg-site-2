@@ -31,9 +31,15 @@ const ApplyTimeline = () => {
             <InfoSec background="gray" alignment="center" regtitle="Recruitment Timeline" subtitle="All times are shown in PST." >
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
-                <Button className={styles.Button}>Recruitment Guide</Button>
-                <Button className={styles.Button}>Zoom Link</Button>
-                <Button className={styles.Button}>Interest Form</Button>
+                <Button className={styles.Button}
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeqfrvv8E6UaVwc2txsNG0zDEg04jJhMcFcypAnUQDKZ616sQ/viewform">
+                    Chat with Us!</Button>
+                <Button className={styles.Button}
+                href="https://docs.google.com/document/d/1hiHDoe-Dk0yNREaR98m_9fp4V5PosxU4uvywp66AaaM/edit">
+                    Zoom Links</Button>
+                <Button className={styles.Button} 
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdWtBebBwGcRc7E2NGG6J88xHRwNrH3oUCh4ZW5lu3qeMEsFA/viewform">
+                    Mailing List</Button>
             </div>
 
 

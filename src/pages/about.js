@@ -5,6 +5,7 @@ import AboutMission from '../components/AboutComponents/AboutMission'
 import AboutImgBanner from '../components/AboutComponents/AboutImgBanner'
 import AboutExperience from '../components/AboutComponents/AboutExperience'
 import AboutBeyond from '../components/AboutComponents/AboutBeyond'
+import AboutSponsors from '../components/AboutComponents/AboutSponsors'
 
 const About = () => {
     return (
@@ -15,6 +16,7 @@ const About = () => {
             <AboutExperience/>
             <AboutImgBanner/>
             <AboutBeyond/>
+            <AboutSponsors/>
         </Layout>
         </div>
     )

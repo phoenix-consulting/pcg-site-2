@@ -9,7 +9,6 @@ import { phoenix_role_cards } from '../../constants'
 
 const AboutExperience = () => {
     const container_style = {
-        paddingTop: "20px",
         fontFamily: "Helvetica",
         fontWeight: "lighter",
         fontSize: "15px",
@@ -48,27 +47,39 @@ const AboutExperience = () => {
         }
         console.log(color_string);
         return (
-            <Col lg={3} style={container_style}>
+            // <Col lg={3} style={container_style}>
+            //     <InfoCard
+            //         title={roleObj.position}
+            //         description={roleObj.description}
+            //         backgroundColor={color_string}>
+            //     </InfoCard>
+            // </Col>
+            <div style={{flex: "0 0 auto", width: "270px"}}>
                 <InfoCard
                     title={roleObj.position}
                     description={roleObj.description}
-                    backgroundColor={color_string}>
+                    backgroundColor={color_string} height="47vh" width="">
+                    
                 </InfoCard>
-            </Col>
+            </div>
         )
     });
 
     return (
         <div>
             <InfoSec
-                title="OUR ORGANIZATION"
-                subtitle="Our entire organization is non-hierarchical, but we assign roles to help 
+                regtitle="Our Organization"
+                smallsubtitle="Our entire organization is non-hierarchical, but we assign roles to help 
                 us stay organized. Here are some of the ways our members contribute over time."
                 alignment="left"
                 background="white">
-            <Row lg={4}>
+
+            <div style={{display: "flex", flexWrap: "nowrap", overflowX: "auto"}}>
+                {experienceCards}
+            </div>
+            {/* <Row lg={4}>
             {experienceCards}
-            </Row>
+            </Row> */}
             </InfoSec>
         </div>
     )
