@@ -11,14 +11,15 @@
 }
 
 .contactButton {
-    background-color: white;
+    width: 100px;
+    background-color: #ad1457;
     border-color: #ad1457;
-    color: #ad1457;
+    color: white;
 }
 
 .contactButton:hover {
-    background-color: #ad1457;
-    color: white;
+    background-color: white;
+    color: #ad1457;
     border-color: #ad1457;
 }
 

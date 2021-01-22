@@ -34,9 +34,6 @@ const ProjectsServices = () => {
                 <TabPane tab={`Operations`} key="4" style={{fontFamily: "Helvetica", fontWeight: "lighter"}}>Hello</TabPane>
                 <TabPane tab={`Product Development`} key="5" style={{fontFamily: "Helvetica", fontWeight: "lighter"}}>Hello</TabPane>
                 <TabPane tab={`Sales & Marketing`} key="6" style={{fontFamily: "Helvetica", fontWeight: "lighter"}}>Hello</TabPane>
-
-
-
             </Tabs>
             </InfoSec>
         </div>

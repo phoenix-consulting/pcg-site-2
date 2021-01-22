@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button'
 
 import styles from './Banner.module.css'
 
+// props: title, message, buttonLink, buttonMsg, bg
+
 const Banner = (props) => {
     // TODO: Styling and background logic
     const bgStyles = [styles.bannerGen];

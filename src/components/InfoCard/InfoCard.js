@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card'
 
 import styles from './InfoCard.module.css'
 
+// props: width, height, backgroundColor, title, description
+
 const InfoCard = (props) => {
     return (
         <Card className={styles.cardStyle} style={{width: props.width, height: props.height, backgroundColor: props.backgroundColor, borderColor: props.backgroundColor}}>

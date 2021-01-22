@@ -6,7 +6,7 @@ const ContactUsBanner = () => {
         <div>
             <Banner title="CONTACT US" message="We’re always on the lookout for partners and projects. This page contains work samples and an FAQ. 
             If you’re interested in getting in touch, please fill out the contact form below." buttonMsg="Contact Form"
-            bg="white">
+            bg="white" buttonLink="https://airtable.com/shrRsr8wSvv00driS">
             </Banner>
         </div>
     )

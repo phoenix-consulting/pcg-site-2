@@ -7,7 +7,7 @@ import styles from './AboutImgBanner.module.css'
 const AboutImgBanner = () => {
     const data = useStaticQuery(graphql`
     query {
-      banquetBoat: file(relativePath: { eq: "banquet-boat-group.jpg" }) {
+      newbiesf19: file(relativePath: { eq: "newbiesf19.png" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -55,7 +55,7 @@ const AboutImgBanner = () => {
           }
         }
       }
-      retreatGroupBlur: file(relativePath: { eq: "retreat-group-blur.jpeg" }) {
+      newbiess19: file(relativePath: { eq: "newbiess19.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -84,7 +84,10 @@ const AboutImgBanner = () => {
                     <Img fluid={data.retreatForest.childImageSharp.fluid} className={styles.imgBox}/>
                 </div>
                 <div className={styles.imgContainer}>
-                    <Img fluid={data.retreatGroupBlur.childImageSharp.fluid} className={styles.imgBox}/>
+                    <Img fluid={data.newbiesf19.childImageSharp.fluid} className={styles.imgBox}/>
+                </div>
+                <div className={styles.imgContainer}>
+                    <Img fluid={data.newbiess19.childImageSharp.fluid} className={styles.imgBox}/>
                 </div>
             </div>
         </div>

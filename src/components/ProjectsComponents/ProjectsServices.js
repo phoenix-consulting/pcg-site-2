@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import InfoSec from '../InfoSec/InfoSec'
 
 import styles from "./ProjectsServices.module.css"
 
@@ -10,7 +11,7 @@ import styles from "./ProjectsServices.module.css"
 const ProjectsServices = () => {
     const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "projectwork.jpeg" }) {
+      file(relativePath: { eq: "proj-banner.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -22,42 +23,37 @@ const ProjectsServices = () => {
 
     return (
         <div>
+            <Img fluid={data.file.childImageSharp.fluid} alt="Project Work"/>
+            <InfoSec
+            regtitle="Our Services"
+            smallsubtitle="We provide six main business services. 
+            Projects combine one or more of these areas with technical skills and a strong area of specialization."
+            >
             <Row>
             <Col sm style={{padding: "0px"}}>
-            <Img fluid={data.file.childImageSharp.fluid} alt="Project Work"/>
-            </Col>
-            <Col sm style={{padding: "0px"}}>
             <div className={styles.servicesWrapper}>
-            <div className={styles.servicesTotalTitle}>Our Services</div>
-            <div className={styles.servicesSubtitle}>We provide six main business services. Projects 
-            combine one or more of these areas with technical skills and a strong area of specialization.
-            </div>
-            <Row className={styles.servicesRow}>
-                <Col className={styles.serviceWrapper}>
+            <Row>
+                <Col className={styles.serviceWrapper} lg={2}>
                 <div><img className={styles.serviceImg} src="./services/corporate-strategy.png"/></div>
-                <div className={styles.serviceTitle}>Corporate Strategy</div>
+                <div className={styles.serviceTitle}>Corporate Strategy and Expansion</div>
                 </Col>
-                <Col className={styles.serviceWrapper}>
+                <Col className={styles.serviceWrapper} lg={2}>
                 <div><img className={styles.serviceImg} src="./services/financial-analysis.png"/></div>
                 <div className={styles.serviceTitle}>Financial and Data Analysis</div>
                 </Col>
-            </Row>
-            <Row className={styles.servicesRow}>
-                <Col className={styles.serviceWrapper}>
+                <Col className={styles.serviceWrapper} lg={2}>
                 <div><img className={styles.serviceImg} src="./services/market-analysis.png"/></div>
-                <div className={styles.serviceTitle}>Market Research</div>
+                <div className={styles.serviceTitle}>Market Research and Landscaping</div>
                 </Col>
-                <Col className={styles.serviceWrapper}>
+                <Col className={styles.serviceWrapper} lg={2}>
                 <div><img className={styles.serviceImg} src="./services/marketing.png"/></div>
-                <div className={styles.serviceTitle}>Sales and Marketing</div>
+                <div className={styles.serviceTitle}>Sales, Marketing, and Content Strategy</div>
                 </Col>
-            </Row>
-            <Row className={styles.servicesRow}>
-                <Col className={styles.serviceWrapper}>
+                <Col className={styles.serviceWrapper} lg={2}>
                 <div><img className={styles.serviceImg} src="./services/operations.png"/></div>
                 <div className={styles.serviceTitle}>Operations Analysis and Management</div>
                 </Col>
-                <Col className={styles.serviceWrapper}>
+                <Col className={styles.serviceWrapper} lg={2}>
                 <div><img className={styles.serviceImg} src="./services/product-development.png"/></div>
                 <div className={styles.serviceTitle}>Product Design and Development</div>
                 </Col>
@@ -65,6 +61,9 @@ const ProjectsServices = () => {
             </div>
             </Col>
             </Row>
+
+            </InfoSec>
+            
 
         </div>
     )

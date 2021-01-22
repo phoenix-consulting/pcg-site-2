@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import {Link} from 'gatsby'
+import InfoCard from '../InfoCard/InfoCard'
 
 import styles from './HomeCurr.module.css'
 import { curr_sem_projs } from '../../constants'
@@ -12,16 +13,30 @@ const HomeCurr = () => {
 
     const clientCards = curr_sem_projs.map((cardObj) => {
         return (
-            <Col sm>
-                <Card className={styles.cardStyle}>
-                    <Card.Body>
-                        <Card.Title className={styles.cardTitleStyle}>{cardObj.name}</Card.Title>
-                        <Card.Text>
-                            {cardObj.description}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col>
+            <div style={{display: "flex", justifyContent: "center"}}>
+            <InfoCard
+            height="54vh"
+            width="200px"
+            backgroundColor="#266f8b"
+            title={cardObj.name}
+            description={cardObj.description}
+            >
+            </InfoCard>
+            </div>
+
+
+
+
+            // <Col sm>
+            //     <Card className={styles.cardStyle}>
+            //         <Card.Body>
+            //             <Card.Title className={styles.cardTitleStyle}>{cardObj.name}</Card.Title>
+            //             <Card.Text>
+            //                 {cardObj.description}
+            //             </Card.Text>
+            //         </Card.Body>
+            //     </Card>
+            // </Col>
         )
     })
 
@@ -32,9 +47,28 @@ const HomeCurr = () => {
             alignment="center"
             background="gray"
         >
-        <Row className={styles.homeCards}>
+        <Row className={styles.homeCards} style={{display: "flex", justifyContent: "center"}}>
             {clientCards}
-            <Col sm>
+            <div>
+            <InfoCard
+                height="25.5vh"
+                width="200px"
+                backgroundColor="#e54a51"
+                title="Ready, Set, Startup!"
+                description="We're building a healthcare accelerator! Details still under wraps. Contact us if interested."
+                >
+                </InfoCard>
+            <InfoCard
+                height="25.5vh"
+                width="200px"
+                backgroundColor="#e54a51"
+                title="Increasing Accessibility"
+                description="We're giving back to our campus through public events, speakers, and workshops."
+                >
+            </InfoCard>
+            </div>
+
+            {/* <Col sm>
                 <Card className={styles.smallCardStyle}>
                     <Card.Body >
                         <Card.Title className={styles.cardTitleStyle}>Ready, Set, Startup!</Card.Title>
@@ -51,7 +85,7 @@ const HomeCurr = () => {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-            </Col>
+            </Col> */}
         </Row>
         <Row>
             <h2 className={styles.readMore}>Read more about our projects <Link to="/projects" className={styles.readMoreLink}>here</Link>.</h2>

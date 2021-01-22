@@ -56,13 +56,11 @@ const HomeAbout = () => {
                 </Col>
             </Row>
         </InfoSec>
-        <Row>
-            <Col sm={8} style={{paddingRight: '0px'}}>
-            <Img fluid={data.file.childImageSharp.fluid} alt="PCG logo" className={styles.picture}/>
-            </Col>
-            <Col className={styles.pictureBuffer} sm={4}>
-            </Col>
-        </Row>
+        <Col style={{padding: '0px'}}>
+        <Img fluid={data.file.childImageSharp.fluid} alt="PCG logo" className={styles.picture}/>
+        </Col>
+            {/* <Col className={styles.pictureBuffer} sm={4}>
+            </Col> */}
         </div>
     )
 }

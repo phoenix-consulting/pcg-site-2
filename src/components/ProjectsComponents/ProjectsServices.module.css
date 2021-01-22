@@ -1,8 +1,5 @@
 .servicesWrapper {
-    padding-left: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 40px;
+    padding: 30px;
     height: 100%;
     font-family: Helvetica, sans-serif;
     background-color: whitesmoke;
@@ -28,6 +25,7 @@
 
 
 .serviceTitle {
+    margin-top: 10px;
     font-weight: lighter;
     font-size: 15px;
 

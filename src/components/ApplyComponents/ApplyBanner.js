@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../Banner/Banner'
 
+import styles from './ApplyBanner.module.css'
+
 const ApplyBanner = () => {
     return (
         <div>
@@ -12,6 +14,16 @@ const ApplyBanner = () => {
                 buttonLink="https://linktr.ee/phoenixrecruitment"
                 bg="white"
             >
+            <div className={styles.linksWrapper}>
+            <div>
+            <a className={styles.link} href="https://recruiting640291.typeform.com/to/XINGe2LQ">Application Form &#8594;</a>
+            </div>
+            <div>
+            <a className={styles.link} href="https://docs.google.com/document/d/1ahxtZDqLib7-kKSa5zcsztxx4TaAsszIcWR_xwCFJsI/edit?usp=sharing">
+                Recruitment Guide &#8594;
+            </a>
+            </div>
+            </div>
             </Banner>
         </div>
     )

@@ -85,7 +85,7 @@ const phoenix_role_cards = [
 
 const alumni_companies = [
     {name: "apple", pic: "apple.png"},
-    {name: "amazon", pic: "Amazon.png"},
+    {name: "amazon", pic: "amazon.png"},
     {name: "amgen", pic: "amgen.png"},
     {name: "accenture", pic: "accenture.png"},
     {name: "bain", pic: "bain.png"},
