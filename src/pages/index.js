@@ -1,6 +1,5 @@
 import React from "react"
 import SEO from '../components/SEO'
-import Layout from '../components/Layout/Layout'
 import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/Footer/Footer'
 import HomeBanner from '../components/HomeComponents/HomeBanner'
@@ -10,6 +9,7 @@ import HomeContact from '../components/HomeComponents/HomeContact'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import BackgroundImage from 'gatsby-background-image'
 import { graphql, useStaticQuery } from 'gatsby'
+import '../global_styles/background.css'
 
 
 const Home = () => {
@@ -29,8 +29,7 @@ const Home = () => {
   return (
     <div>
       <SEO/>
-      <BackgroundImage fluid={data.file.childImageSharp.fluid} style=
-      {{width: "100%", backgroundPosition: "100% -15%", backgroundSize: "contain"}}>
+      <BackgroundImage fluid={data.file.childImageSharp.fluid} className="backgroundImage">
         <NavBar light={true}/>
         <HomeBanner/>
         <HomeAbout/>

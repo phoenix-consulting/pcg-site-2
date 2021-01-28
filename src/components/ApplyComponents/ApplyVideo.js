@@ -4,10 +4,10 @@ import InfoSec from '../InfoSec/InfoSec'
 const ApplyVideo = () => {
     return (
         <div>
-            <InfoSec subtitle="Recruitment video coming soon!" 
+            <InfoSec subtitle="What is it like to be in Phoenix?" 
             background="gray" alignment="center">
             <div style={{textAlign: "center"}}>
-            <iframe width="854" height="480" src="" 
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/nPoBw17pGfw"
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
             </div>

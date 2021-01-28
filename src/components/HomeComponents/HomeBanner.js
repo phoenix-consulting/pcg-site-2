@@ -30,7 +30,7 @@ const HomeBanner = () => {
                     students who consult for health-sector business problems.</p>
                 <div className={styles.bannerIconBox} href="/#info">
                     <a href="./#homeaboutus">
-                        <DownCircleOutlined style={{fontSize: "40px", cursor: "pointer"}} className={styles.bannerIcon}/>
+                        <DownCircleOutlined style={{fontSize: "60px", cursor: "pointer"}} className={styles.bannerIcon}/>
                     </a>
                 </div>
                     </Col>

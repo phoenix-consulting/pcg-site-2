@@ -12,7 +12,7 @@ const Apply = () => {
         <SEO title="Apply"/>
         <Layout light={false}>
             <ApplyBanner/>
-            {/* <ApplyVideo/> */}
+            <ApplyVideo/>
             <ApplyTimeline/>
             <ApplyFAQ/>
         </Layout>
