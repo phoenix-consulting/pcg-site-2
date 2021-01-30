@@ -12,7 +12,7 @@ const AboutBanner = () => {
                 message="We're a consulting firm, healthcare hub, and UC Berkeley student organization
                 invested in growth, impact, and community."
                 bg="gray"
-                buttonMsg="Read more on our blog!"
+                buttonMsg="Latest Updates &#8594;"
                 buttonLink="https://medium.com/@phoenixconsulting"
             >
             </Banner>

@@ -15,20 +15,20 @@ const count_up_objs = [
 ]
 
 const curr_sem_projs = [
-    {name: "Ambry Genetics",
+    {name: "Client: Ambry Genetics",
     description: 
         `Ambry is a market leader in genetic testing for hereditary cancers, 
         cardiovasicular disease, neurodevelopmental disorders, epilepsy, and rare diseases. They have also 
         been instrumental in developing several precision treatments for COVID-19.`},
-    {name: "Clarigent Health",
+    {name: "Client: Clarigent Health",
     description: 
         `Clarigent Health develops HIPAA-compliant artificial intelligence algorithms that 
         detect risk of suicide in speech using vocal biomarkers. Their tech platforms have enabled clinicians in an era of telehealth and physical isolation.`},
-    {name: "Mental Health America",
+    {name: "Client: Mental Health America",
     description:
         `Founded in 1909, Mental Health America is the nation's leading mental health nonprofit and has educated millions
         about mental health while reducing barriers to treatment and services. We're excited to work with their headquarters office.`},
-    {name: "The Cedars-Sinai Accelerator",
+    {name: "Client: The Cedars-Sinai Accelerator",
     description:
         `The Cedars-Sinai Accelerator is a startup incubator affiliated with one of the largest hospital systems in
         California. We are taking on a DEI-focused project that will impact the acclerator's startup sourcing and evaluation.`}
@@ -295,7 +295,7 @@ const recruitment_events = [
     description: `We'll invite successful first round candidates to a virtual social event! This event doesn't
     factor into your candidacy, and it's your chance to meet members in a
     more casual setting. In other words, it's a chance for you to see if we're a good fit for you. `},
-    {event: "Group Interviews", dateTime: "Wednesday, 2/2",
+    {event: "Group Interviews", dateTime: "Wednesday, 2/3",
     description: `Our final round interviews involve a more complex case than the individual round, one that's hard to
     solve unless you work effectively with your group. For tips on how to prepare, check out our recruitment guide.`}
 ]
@@ -346,4 +346,4 @@ export { research_institutions };
 export { recruitment_events };
 export { student_faq };
 export { company_faq, projects_carousel, project_timeline, past_projects };
-export { sponsors_and_affiliates }
+export { sponsors_and_affiliates };

@@ -67,8 +67,15 @@
     margin-top: 20px;
     background-color:#ad1457;
     border-color:#ad1457;
+    box-shadow: none;
+    border-style: solid;
+    border-radius: 5px;
     color: white;
     width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .buttonGray:hover {
@@ -76,4 +83,10 @@
     color: #ad1457;
     border-color:#ad1457;
     transition: 0.5s;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
