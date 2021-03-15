@@ -56,8 +56,8 @@ const HomeCurr = () => {
                 width="200px"
                 titleHeight="16px"
                 backgroundColor="#e54a51"
-                title="Ready, Set, Startup!"
-                description="We're building a healthcare accelerator! Details still under wraps. Contact us if interested."
+                title="Ready, Set, Health!"
+                description="We're building a healthcare accelerator! Check out the Demo Day link for more information."
                 >
                 </InfoCard>
             <InfoCard

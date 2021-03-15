@@ -31,11 +31,11 @@
 }
 
 .navlinkDark {
-    color: black;
+    color: #555555;
 }
 
 .navlinkDark:hover {
-    color: black;
+    color: #ad1457;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -59,7 +59,7 @@
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: black;
+    background-color: #ad1457;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
 }

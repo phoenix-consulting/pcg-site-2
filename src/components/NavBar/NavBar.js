@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container"
 import { Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
+
 import styles from './NavBar.module.css'
 
 const NavBar = (props) => {
@@ -71,6 +72,9 @@ const NavBar = (props) => {
                         </Nav.Item>
                         <Nav.Item className={styles.navlinkBox}>
                             <Link to='/apply' className={navLinkStyles.join(' ')}>Join</Link>
+                        </Nav.Item>
+                        <Nav.Item className={styles.navlinkBox}>
+                            <a href="https://readysethealth.io" className={navLinkStyles.join(' ')}>Demo Day</a>
                         </Nav.Item>
                     </Nav>
                     </Navbar.Collapse>
