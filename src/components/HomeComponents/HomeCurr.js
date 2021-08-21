@@ -8,6 +8,7 @@ import InfoCard from '../InfoCard/InfoCard'
 
 import styles from './HomeCurr.module.css'
 import { curr_sem_projs } from '../../constants'
+import { curr_sem } from '../../constants'
 
 const HomeCurr = () => {    
 
@@ -43,7 +44,7 @@ const HomeCurr = () => {
 
     return (
         <InfoSec
-            title="PHOENIX IN SPRING 2021"
+            title={curr_sem.phoenix_in}
             subtitle="This semester, our projects range from global expansion to DEI strategy."
             alignment="center"
             background="gray"

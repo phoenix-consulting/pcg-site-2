@@ -30,7 +30,7 @@ const ProjectsTimeline = () => {
                 <InfoCard
                     title={timelineObj.stage}
                     description={timelineObj.description}
-                    backgroundColor={color_string} height="47vh" width="">
+                    backgroundColor={color_string} height="300px" width="">
                 </InfoCard>
             </div>
         )
