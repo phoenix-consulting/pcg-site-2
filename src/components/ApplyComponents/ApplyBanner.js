@@ -15,9 +15,9 @@ const ApplyBanner = () => {
                 bg="white"
             >
             <div className={styles.linksWrapper}>
-            {/* <div>
-            <a className={styles.link} href="https://recruiting640291.typeform.com/to/XINGe2LQ">Application Form &#8594;</a>
-            </div> */}
+            <div>
+            <a className={styles.link} href="https://form.typeform.com/to/cULpEfuh">Application Form &#8594;</a>
+            </div>
             <div>
             <a className={styles.link} href="https://docs.google.com/document/d/1ahxtZDqLib7-kKSa5zcsztxx4TaAsszIcWR_xwCFJsI/edit?usp=sharing">
                 Recruitment Guide &#8594;

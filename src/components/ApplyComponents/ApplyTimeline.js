@@ -35,8 +35,8 @@ const ApplyTimeline = () => {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeqfrvv8E6UaVwc2txsNG0zDEg04jJhMcFcypAnUQDKZ616sQ/viewform">
                     Chat with Us!</Button>
                 <Button className={styles.Button}
-                href="https://docs.google.com/document/d/1hiHDoe-Dk0yNREaR98m_9fp4V5PosxU4uvywp66AaaM/edit">
-                    Zoom Links</Button>
+                href="https://berkeley.zoom.us/j/9706624698?pwd=Z3JHa2Jpd3dOMFpsSnJwb2p0SmlKdz09#success">
+                    Office Hours</Button>
                 <Button className={styles.Button} 
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdWtBebBwGcRc7E2NGG6J88xHRwNrH3oUCh4ZW5lu3qeMEsFA/viewform">
                     Mailing List</Button>
