@@ -15,23 +15,18 @@ const count_up_objs = [
 ]
 
 const curr_sem_projs = [
-    {name: "Client: Ambry Genetics",
+    {name: "Client: Pfizer",
     description: 
-        `Ambry is a market leader in genetic testing for hereditary cancers, 
-        cardiovasicular disease, neurodevelopmental disorders, epilepsy, and rare diseases. They have also 
-        been instrumental in developing several precision treatments for COVID-19.`},
-    {name: "Client: Clarigent Health",
+        `Pfizer is a multinational pharmaceutical company that develops medications and therapeutic treatments for various diseases. Recently, they've played a large part in slowing the spread of COVID-19 through the launch of their vaccine.`},
+    {name: "Client: Lifespan Biolabs",
     description: 
-        `Clarigent Health develops HIPAA-compliant artificial intelligence algorithms that 
-        detect risk of suicide in speech using vocal biomarkers. Their tech platforms have enabled clinicians in an era of telehealth and physical isolation.`},
-    {name: "Client: Mental Health America",
+        `Lifespan Biolabs is an emerging biotech startup incubator located in the Bay Area focused on helping entrepreneurs successfully grow their ideas into businesses.`},
+    {name: "Client: Bighat Biosciences",
     description:
-        `Founded in 1909, Mental Health America is the nation's leading mental health nonprofit and has educated millions
-        about mental health while reducing barriers to treatment and services. We're excited to work with their headquarters office.`},
-    {name: "Client: The Cedars-Sinai Accelerator",
+        `Bighat Biosciences uses a combination of traditional wet lab research techniques and machine learning to construct novel antibodies for use in curing today's most challenging diseases.`},
+    {name: "Client: American Bone Health",
     description:
-        `The Cedars-Sinai Accelerator is a startup incubator affiliated with one of the largest hospital systems in
-        California. We are taking on a DEI-focused project that will impact the acclerator's startup sourcing and evaluation.`}
+        `American Bone Health is a nonprofit organization focused on spreading awareness about osteoporosis and other bone-related illnesses. We'll be working to ensure that they can have the greatest impact for the longest time.`}
 ]
 
 const home_carousel_testimonials = [
