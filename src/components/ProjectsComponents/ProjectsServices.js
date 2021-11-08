@@ -11,7 +11,7 @@ import styles from "./ProjectsServices.module.css"
 const ProjectsServices = () => {
     const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "proj-banner.jpg" }) {
+      file(relativePath: { eq: "S21-proj-banner.JPG" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
