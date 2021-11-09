@@ -7,7 +7,7 @@ import styles from './AboutImgBanner.module.css'
 const AboutImgBanner = () => {
     const data = useStaticQuery(graphql`
     query {
-      newbiesf19: file(relativePath: { eq: "newbiesf19.png" }) {
+      newbiesf19: file(relativePath: { eq: "F21-retreat-girls.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -15,7 +15,7 @@ const AboutImgBanner = () => {
           }
         }
       }
-      beachGroup: file(relativePath: { eq: "retreat-beach-group.jpg" }) {
+      beachGroup: file(relativePath: { eq: "F21-retreat-hike.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -23,7 +23,7 @@ const AboutImgBanner = () => {
           }
         }
       }
-      divyaCatBaz: file(relativePath: { eq: "retreat-divya-cat-baz.jpg" }) {
+      divyaCatBaz: file(relativePath: { eq: "F21-retreat-boardgame.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -31,7 +31,7 @@ const AboutImgBanner = () => {
           }
         }
       }
-      juliaCatVivek: file(relativePath: { eq: "retreat-vivek-cat-julia.jpg" }) {
+      juliaCatVivek: file(relativePath: { eq: "F21-retreat-beach.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -39,7 +39,7 @@ const AboutImgBanner = () => {
           }
         }
       }
-      retreatBlur: file(relativePath: { eq: "retreat-cat-group-blur.jpeg" }) {
+      retreatBlur: file(relativePath: { eq: "F21-retreat-chipotle.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -47,7 +47,7 @@ const AboutImgBanner = () => {
           }
         }
       }
-      retreatForest: file(relativePath: { eq: "retreat-forest-group.jpg" }) {
+      retreatForest: file(relativePath: { eq: "S21-skydiving.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -55,7 +55,7 @@ const AboutImgBanner = () => {
           }
         }
       }
-      newbiess19: file(relativePath: { eq: "newbiess19.jpg" }) {
+      newbiess19: file(relativePath: { eq: "F20-newbies.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid

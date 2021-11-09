@@ -14,7 +14,7 @@ const HomeAbout = () => {
     // TODO: VISIBILITY SENSOR
     const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "group-shoot.jpg" }) {
+      file(relativePath: { eq: "S21-whole-club-photo.jpg.JPG" }) {
         childImageSharp {
           fluid(maxWidth: 1900) {
             ...GatsbyImageSharpFluid

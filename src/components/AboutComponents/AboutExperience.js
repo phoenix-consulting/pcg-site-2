@@ -21,11 +21,8 @@ const AboutExperience = () => {
         color: "#ad1457"
     }
 
-
     const experienceCards = phoenix_role_cards.map((roleObj, index) => {
         let color_string = "";
-
-
         switch (index) {
             case 0:
                 color_string = "#63aec7";
