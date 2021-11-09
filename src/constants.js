@@ -23,18 +23,6 @@ const curr_sem = {
 const curr_sem_projs = [
     {name: "Client: Pfizer",
     description: 
-<<<<<<< HEAD
-        `Coming Soon!`},
-    {name: "Client: BigHat Biosciences",
-    description: 
-        `Coming soon!`},
-    {name: "Client: American Bone Health",
-    description:
-        `Coming Soon!`},
-    {name: "Client: Lifespan",
-    description:
-        `Coming Soon!`}
-=======
         `Pfizer is a multinational pharmaceutical company that develops medications and therapeutic treatments for various diseases. Recently, they've played a large part in slowing the spread of COVID-19 through the launch of their vaccine.`},
     {name: "Client: Lifespan Biolabs",
     description: 
@@ -45,7 +33,6 @@ const curr_sem_projs = [
     {name: "Client: American Bone Health",
     description:
         `American Bone Health is a nonprofit organization focused on spreading awareness about osteoporosis and other bone-related illnesses. We'll be working to ensure that they can have the greatest impact for the longest time.`}
->>>>>>> ad0d2c213f5501ac7607e0d93d264d93afed51ab
 ]
 
 const home_carousel_testimonials = [

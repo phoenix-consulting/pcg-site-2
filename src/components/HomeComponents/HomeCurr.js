@@ -44,13 +44,8 @@ const HomeCurr = () => {
 
     return (
         <InfoSec
-<<<<<<< HEAD
-            title={curr_sem.phoenix_in}
-            subtitle="This semester, our projects range from global expansion to DEI strategy."
-=======
             title="PHOENIX IN FALL 2021"
             subtitle="This semester, our projects range from international marketing strategy to therapeutic treatment analysis."
->>>>>>> ad0d2c213f5501ac7607e0d93d264d93afed51ab
             alignment="center"
             background="gray"
         >
