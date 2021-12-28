@@ -6,6 +6,7 @@ This site is built in React and uses GatsbyJS and GraphQL to handle routing, ima
 The site is built to be largely maintainable from `/src/constants.js`, which contains most content that changes from semester to semester in a series of JavaScript arrays. Many components in the site call functions on these arrays, so please don't mess around too much with stuff inside of `constants.js` unless it's wrapped in quotes. `constants.js` also contains a bunch of color and font constants that can be used for reference or imported.
 
 *Christopher Zou, 1/2021*
+oliver saying hi to make sure he cloned properly
 
 ## 🧐 What's inside?
     .
