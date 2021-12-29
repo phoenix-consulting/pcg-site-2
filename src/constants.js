@@ -9,15 +9,15 @@ const social_media_links = [
 
 const count_up_objs = [
     {number: 4, description: "Projects every semester"},
-    {number: 36, description: "Deliverables completed so far"},
+    {number: 40, description: "Deliverables completed so far"},
     {number: 33, description: "Active members and 70+ alumni"},
     {number: 1, description: "Phoenix family"},
 ]
 
 const curr_sem = {
-    in_caps: "FALL 2021", 
-    capitalized: "Fall 2021",
-    phoenix_in: "PHOENIX IN FALL 2021"
+    in_caps: "SPRING 2022", 
+    capitalized: "Spring 2022",
+    phoenix_in: "PHOENIX IN SPRING 2022"
 }
 
 const curr_sem_projs = [
