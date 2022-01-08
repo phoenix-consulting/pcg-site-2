@@ -6,7 +6,7 @@ const Members = () => {
         <div>
         <InfoSec
             regtitle="Meet Phoenix!"
-            smallsubtitle="Feel free to email <PLACEHOLDER> if you have any questions!"
+            smallsubtitle="Feel free to email phoenixconsulting.berkeley@gmail.com if you have any questions!"
             background="white"
         >
             <div style={{border:"1px solid lightgrey"}}>
