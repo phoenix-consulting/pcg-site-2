@@ -7,7 +7,7 @@ import AboutImgBanner from '../components/AboutComponents/AboutImgBanner'
 import AboutExperience from '../components/AboutComponents/AboutExperience'
 import AboutBeyond from '../components/AboutComponents/AboutBeyond'
 import AboutSponsors from '../components/AboutComponents/AboutSponsors'
-import Members from '../components/Members/Members'
+import AboutMembers from '../components/AboutComponents/AboutMembers'
 
 const About = () => {
     return (
@@ -18,7 +18,7 @@ const About = () => {
             <AboutMission/>
             <AboutExperience/>
             <AboutImgBanner/>
-            <Members/>
+            <AboutMembers/>
             <AboutBeyond/>
             <AboutSponsors/>
         </Layout>
