@@ -9,8 +9,8 @@ const social_media_links = [
 
 const count_up_objs = [
     {number: 4, description: "Projects every semester"},
-    {number: 40, description: "Deliverables completed so far"},
-    {number: 33, description: "Active members and 70+ alumni"},
+    {number: 50, description: "Deliverables completed so far"},
+    {number: 38, description: "Active members and 70+ alumni"},
     {number: 1, description: "Phoenix family"},
 ]
 
