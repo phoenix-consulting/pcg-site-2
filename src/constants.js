@@ -268,7 +268,7 @@ const past_projects = [
 
 
 const recruitment_events = [
-    {event: "Infosession 1", dateTime: "Monday, 8/30 8-10pm", 
+    {event: "Infosession 1 (Virtual)", dateTime: "Monday, 1/24 8-10pm", 
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
