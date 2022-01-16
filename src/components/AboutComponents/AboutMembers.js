@@ -6,7 +6,7 @@ const Members = () => {
         <div>
         <InfoSec
             regtitle="Meet Phoenix!"
-        smallsubtitle="Feel free to reach out to any of our members to schedule a coffee chat! Reach out to phoenixconsulting.berkeley@gmail.com if you have general questions."
+        smallsubtitle="Feel free to reach out to any of our members to schedule a coffee chat! Fill out the form on the 'Join' page to schedule a coffee chat, or also feel free to reach out to any of our members directly!"
             background="white"
         >
             <div style={{border:"1px solid lightgrey"}}>
