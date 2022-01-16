@@ -28,17 +28,17 @@ const ApplyTimeline = () => {
     })
     return (
         <div>
-            <InfoSec background="gray" alignment="center" regtitle="Fall 2021 Recruitment Timeline" subtitle="All times are shown in PST." >
+            <InfoSec background="gray" alignment="center" regtitle="Spring 2022 Recruitment Timeline" subtitle="All times are shown in PST." >
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
                 <Button className={styles.Button}
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeqfrvv8E6UaVwc2txsNG0zDEg04jJhMcFcypAnUQDKZ616sQ/viewform">
-                    Chat with Us!</Button>
+                href="https://forms.gle/E7ACmHZazRCytPTq9">
+                    Coffee Chat Us!</Button>
                 <Button className={styles.Button}
-                href="https://berkeley.zoom.us/j/9706624698?pwd=Z3JHa2Jpd3dOMFpsSnJwb2p0SmlKdz09#success">
-                    Office Hours</Button>
+                href="https://docs.google.com/document/d/1xnHKdM7J3XlZZABDwSabFM3BqF3MViWe8OYMCWa-LGw/edit?usp=sharing">
+                    Virtual Tabling</Button>
                 <Button className={styles.Button} 
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdWtBebBwGcRc7E2NGG6J88xHRwNrH3oUCh4ZW5lu3qeMEsFA/viewform">
+                href="https://forms.gle/JNSkrPDuQTwRf99G8">
                     Mailing List</Button>
             </div>
 
