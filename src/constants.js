@@ -272,29 +272,25 @@ const recruitment_events = [
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
-    {event: "Office Hours", dateTime: "8/30-9/3, 9am-5pm",
-    description: `Drop by our Zoom link anytime during the week to ask us questions and get clarity on the application process. We'll
-    have a rotating cast of Phoenixers on—we'd be happy to tell you when members who align most with your interests
-    will be around.`},
-    {event: "Women's Event", dateTime: "Tuesday, 8/31 8-9pm",
+    {event: "Womxn's Event", dateTime: "Tuesday, 1/25 8-9pm",
     description: `The women of Phoenix will present their experience in business in a slightly smaller setting.`},
-    {event: "Infosession 2", dateTime: "Tuesday, 8/31 9-10:30pm",
+    {event: "Infosession 2", dateTime: "Tuesday, 1/25 9-10:00pm",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`},
-    {event: "Case Workshop", dateTime: "Thursday, 9/2 8-10pm",
+    {event: "Case Workshop", dateTime: "Thursday, 1/27 8-10pm",
     description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
     then split into smaller groups and go through an example case together.`},
-    {event: "Application Due", dateTime: "Friday, 9/3 5pm",
+    {event: "Application Due", dateTime: "Friday, 1/28 5pm",
     description: `Our application involves a couple of short answer questions and uploading a few documents like your resume.
     Check out our recruitment guide and our FAQ for tips.`},
-    {event: "First Round Interviews", dateTime: "Sunday, 9/5",
+    {event: "First Round Interviews", dateTime: "Sunday, 1/30",
     description: `After we review applications, some candidates will be invited to schedule individual interviews. The interviews
     will have a behavioral and a case component. Check out our recruitment guide for tips on preparation.`},
-    {event: "Meet Phoenix", dateTime: "Tuesday, 9/7 7-9:30pm",
+    {event: "Meet Phoenix", dateTime: "Tuesday, 2/1 7-9:30pm",
     description: `We'll invite successful first round candidates to a virtual social event! This event doesn't
     factor into your candidacy, and it's your chance to meet members in a
     more casual setting. In other words, it's a chance for you to see if we're a good fit for you. `},
-    {event: "Group Interviews", dateTime: "Wednesday, 9/8",
+    {event: "Group Interviews", dateTime: "Wednesday, 2/2",
     description: `Our final round interviews involve a more complex case than the individual round, one that's hard to
     solve unless you work effectively with your group. For tips on how to prepare, check out our recruitment guide.`}
 ]
