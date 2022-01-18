@@ -8,7 +8,7 @@ import styles from './AboutMission.module.css'
 const AboutMission = () => {
     const data = useStaticQuery(graphql`
     query {
-      banquetBoat: file(relativePath: { eq: "DSCF9243.JPG" }) {
+      banquetBoat: file(relativePath: { eq: "banquet-boat-group.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600, quality: 100) {
             ...GatsbyImageSharpFluid
