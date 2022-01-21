@@ -272,11 +272,14 @@ const recruitment_events = [
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
-    {event: "Womxn's Event", dateTime: "Tuesday, 1/25 8-9pm",
+    {event: "Womxn's Event (Virtual)", dateTime: "Tuesday, 1/25 8-9pm",
     description: `The women of Phoenix will present their experience in business in a slightly smaller setting.`},
-    {event: "Infosession 2", dateTime: "Tuesday, 1/25 9-10:00pm",
+    {event: "Infosession 2 (Virtual)", dateTime: "Tuesday, 1/25 9-10:00pm",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`},
+    {event: "In Person Networking Session[New]", dateTime: "Wednesday, 1/26 6-7:00pm",
+    description: `We are excited to announce that we will be holding an optional in-person networking session at the Haas Courtyard! Come out for a chance to meet our members in real life.
+    Masks are required and all Phoenix members will have a negative PCR test within three days.`},
     {event: "Case Workshop", dateTime: "Thursday, 1/27 8-10pm",
     description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
     then split into smaller groups and go through an example case together.`},
