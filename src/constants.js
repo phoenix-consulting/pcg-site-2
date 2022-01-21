@@ -37,22 +37,22 @@ const curr_sem_projs = [
 
 const home_carousel_testimonials = [
     {testimonial:
-        `Their insights generated many in-depth discussions within our group 
+        `The specialization and niche knowledge about the biotech and healthcare space, high level of professionalism and strong communication skills were greatly appreciated and valued. Their insights generated many in-depth discussions within our group 
         which helped us approach our work more effectively.`,
         author: "Kaiser Permanente"},
     {testimonial: 
-        `Phoenix was my closest friend group in college and I can honestly say that 
-        knowing every one of them made me a better person.`, 
-        author: "Kate Tan (Berkeley '20), Stanford Engineering"},
+        `We worked with Phoenix during a key time of growth for our business. I had high expectations—which were nonetheless exceeded—and the quality of work was on par with industry consultants with years of professional experience. Their contributions
+        have been strong and actionable, and we are using the results of the work to inform key strategic decisions.`, 
+        author: "Cadence Health"},
     {testimonial: 
-        `We would not hesitate to work with Phoenix Consulting again given the right circumstances.`, 
-        author: "Amgen"},
+        `Phoenix Consulting performed a rigorous deep dive on a new therapeutic target for us, compiled a compelling business case, and triaged clinical indications via interviews with key leaders in medicine and industry. Their final work product strongly reflected their professionalism and effort.`, 
+        author: "Bighat Biosciences"},
     {testimonial: 
-        `Phoenix Consulting gave me the approach required to effectively solve real industry problems.`, 
-        author: "Andrew Nam (Berkeley '19), Google & Accenture Labs"},
+        `We have spent hundreds of millions in Consulting projects, and I must say that this is one of the most succinct and well delivered pitches we’ve seen.`, 
+        author: "James (Jim) Laur, Managing Director at Cedars Sinai Health Ventures"},
     {testimonial: 
-        `Phoenix Consulting did an excellent job by assisting Advent Access in our product development 
-        processes as well as in conducting market research.`,
+        `Phoenix Consulting did an excellent job assisting Advent Access in our product development processes as well as in conducting market research - the entire project was extremely professional 
+        and the team pushed the project further than we initially thought it would go. They have made valuable contributions to our business development and we are very satisfied with the overall result.`,
         author: "Advent Access"}
 ]
 
