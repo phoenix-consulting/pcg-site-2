@@ -334,6 +334,8 @@ const company_faq = [
     answer: "Past clients span the biotech, healthcare, and life sciences industries, but also include tech companies with health initiatives, nonprofit organizations, and more. Project deliverables have included product mockups, international expansion strategies, drug pipeline analysis, and more. Our members span tech, policy, healthcare, finance, and biology, and Phoenix can take on projects in any of these areas. Feel free to read more about our projects on the Projects page."}
 ]
 
+const virtual_events_zoom_link = ""
+
 export { social_media_links };
 export { count_up_objs };
 export { curr_sem_projs };
@@ -344,5 +346,5 @@ export { alumni_companies };
 export { research_institutions };
 export { recruitment_events };
 export { student_faq };
-export { company_faq, projects_carousel, project_timeline, past_projects };
+export { company_faq, projects_carousel, project_timeline, past_projects, virtual_events_zoom_link };
 export { sponsors_and_affiliates };

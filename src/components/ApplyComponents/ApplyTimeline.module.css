@@ -55,3 +55,17 @@
     border-color: #ad1457;
     transition: 0.5s;
 }
+
+.virtualBanner {
+    background-color: #073763;
+}
+
+.virtualBannerText {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}

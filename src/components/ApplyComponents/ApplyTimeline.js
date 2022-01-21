@@ -1,12 +1,13 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import Container from 'react-bootstrap/Container'
 import InfoSec from '../InfoSec/InfoSec'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 
-import { recruitment_events } from '../../constants'
+import { recruitment_events, virtual_events_zoom_link } from '../../constants'
 import styles from './ApplyTimeline.module.css'
 import './ApplyTimeline.css'
 
@@ -28,6 +29,15 @@ const ApplyTimeline = () => {
     })
     return (
         <div>
+            <div className={styles.virtualBanner}>
+                <Container>
+                <h3 className={styles.virtualBannerText}>In accordance with Phoenix's values and work toward promoting the health
+                    of our community, all of our indoor events will be held virtually. However, we are
+                    putting on a outdoor networking session next Wednesday. Scroll down for more details!
+                    And of course, we welcome you to chat with us at our table on lower Sproul.
+                </h3>
+                </Container>
+            </div>
             <InfoSec background="gray" alignment="center" regtitle="Spring 2022 Recruitment Timeline" subtitle="All times are shown in PST." >
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
@@ -40,6 +50,10 @@ const ApplyTimeline = () => {
                 <Button className={styles.Button} 
                 href="https://forms.gle/JNSkrPDuQTwRf99G8">
                     Mailing List</Button>
+                <Button className={styles.Button}
+                href={virtual_events_zoom_link}>
+                    Event Zoom Link
+                </Button>
             </div>
 
 
