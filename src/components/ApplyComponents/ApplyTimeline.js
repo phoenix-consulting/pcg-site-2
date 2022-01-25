@@ -51,7 +51,7 @@ const ApplyTimeline = () => {
                 href="https://forms.gle/JNSkrPDuQTwRf99G8">
                     Mailing List</Button>
                 <Button className={styles.Button}
-                href={virtual_events_zoom_link}>
+                href="https://berkeley.zoom.us/j/7946814415">
                     Event Zoom Link
                 </Button>
             </div>
