@@ -16,7 +16,7 @@ const HomeCurr = () => {
         return (
             <div style={{display: "flex", justifyContent: "center"}}>
             <InfoCard
-            height="300px"
+            height="400px"
             titleHeight="35px"
             width="200px"
             backgroundColor="#266f8b"
@@ -55,7 +55,7 @@ const HomeCurr = () => {
             {clientCards}
             <div>
             <InfoCard
-                height="140px"
+                height="190px"
                 width="200px"
                 titleHeight="16px"
                 backgroundColor="#e54a51"
@@ -64,7 +64,7 @@ const HomeCurr = () => {
                 >
                 </InfoCard>
             <InfoCard
-                height="140px"
+                height="190px"
                 width="200px"
                 titleHeight="16px"
                 backgroundColor="#e54a51"

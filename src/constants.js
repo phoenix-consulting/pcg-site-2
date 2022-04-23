@@ -21,18 +21,19 @@ const curr_sem = {
 }
 
 const curr_sem_projs = [
-    {name: "Client: Pfizer",
+    {name: "Client: x-Therma",
     description: 
-        `Pfizer is a multinational pharmaceutical company that develops medications and therapeutic treatments for various diseases. Recently, they've played a large part in slowing the spread of COVID-19 through the launch of their vaccine.`},
-    {name: "Client: Lifespan Biolabs",
+        `x-Therma is an emerging series A startup in the cryopreservation space, working to solve the issues of ice-crystal expansion and cell rupturing via novel tissue/cell storage and transportation solutions. Phoenix will be working with x-Therma on market entry and branding strategy.`},
+    {name: "Client: Nvidia",
     description: 
-        `Lifespan Biolabs is an emerging biotech startup incubator located in the Bay Area focused on helping entrepreneurs successfully grow their ideas into businesses.`},
-    {name: "Client: Bighat Biosciences",
+        `Nvidia is a multinational technology company mainly known for developing GPUs and computing equipment. Nvidia is making a push to power new breakthroughs in healthcare and life sciences by accelerating AI and computing research. Phoenix will be working to design an influencer campaign for Nvidia to become a leader in the biopharma space.`},
+    {name: "Client: Varian",
     description:
-        `Bighat Biosciences uses a combination of traditional wet lab research techniques and machine learning to construct novel antibodies for use in curing today's most challenging diseases.`},
-    {name: "Client: American Bone Health",
+        `Varian is a radiation oncology company focusing on linear accelerators and software for treating conditions with radiotherapy, radiosurgery, and photon therapy. Phoenix will be working to help Varian better understand the focal therapy space in prostate cancer and prioritize business investments.`},
+    {name: "Client: Datavant",
     description:
-        `American Bone Health is a nonprofit organization focused on spreading awareness about osteoporosis and other bone-related illnesses. We'll be working to ensure that they can have the greatest impact for the longest time.`}
+        `Datavant is a health information technology company building a digital ecosystem for the transfer and exchange of healthcare data, enabling corporations to match and share patient information. Phoenix is working with Datavant to better understand market entry strategy and design considerations for a new product they are launching in the matching space.`
+    }
 ]
 
 const home_carousel_testimonials = [
