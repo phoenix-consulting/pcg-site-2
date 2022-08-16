@@ -37,6 +37,9 @@ const Banner = (props) => {
                     <Col sm={4}>
                     </Col>
                 </Row>
+                <div style={{color: "grey"}}>
+                    {props.subMessage}
+                </div>
                 <div>
                 <a href={props.buttonLink}><button className={buttonStyles.join(' ')}>{props.buttonMsg}</button></a>
                 </div>
