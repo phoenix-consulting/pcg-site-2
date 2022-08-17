@@ -2,23 +2,18 @@ import React from 'react'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout/Layout'
 import DecalBanner from '../components/DecalComponents/DecalBanner'
-import AboutBanner from '../components/AboutComponents/AboutBanner'
-import AboutMission from '../components/AboutComponents/AboutMission'
-import AboutImgBanner from '../components/AboutComponents/AboutImgBanner'
-import AboutExperience from '../components/AboutComponents/AboutExperience'
-import AboutBeyond from '../components/AboutComponents/AboutBeyond'
-import AboutSponsors from '../components/AboutComponents/AboutSponsors'
-import AboutMembers from '../components/AboutComponents/AboutMembers'
+import DecalBody from '../components/DecalComponents/DecalBody'
 
-const About = () => {
+const Decal = () => {
     return (
         <div>
-        <SEO title="About"/>
+        <SEO title="Decal"/>
         <Layout light={false}>
             <DecalBanner/>
+            <DecalBody/>
         </Layout>
         </div>
     )
 }
 
-export default About
+export default Decal

@@ -75,6 +75,8 @@ const InfoSec = (props) => {
                 <h1 className={regtitleStyles.join(' ')}>{props.regtitle}</h1>
                 <h2 className={subtitleStyles.join(' ')}>{props.subtitle}</h2>
                 <div className={smallSubStyles.join(' ')}>{props.smallsubtitle}</div>
+                <div className={smallSubStyles.join(' ')}>{props.smallsubtitle2}</div>
+                <div className={smallSubStyles.join(' ')}>{props.smallsubtitle3}</div>
                 </div>
             {props.children}
             </Container>
