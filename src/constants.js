@@ -202,6 +202,49 @@ const project_timeline = [
     }
 ]
 
+const decal_instructors = [
+    {
+        name: "Ayushi Balan",
+        role: "Instructor",
+        pronouns: "She/Her/Hers"
+    },
+    {
+        name: "Angeline Tu",
+        role: "Instructor",
+        pronouns: "She/Her/Hers"
+    },
+    {
+        name: "Ishan Balakrishnan",
+        role: "TA",
+        pronouns: "He/Him/His"
+    },
+    {
+        name: "Nathan Hsu",
+        role: "TA",
+        pronouns: "He/Him/His"
+    },
+    {
+        name: "Brightan Ying",
+        role: "TA",
+        pronouns: "He/Him/His"
+    },
+    {
+        name: "Alexis Balashov",
+        role: "TA",
+        pronouns: "She/Her/Hers"
+    },
+]
+
+const decal_faq_questions = [
+    {question: "Who can apply?",
+    answer: `Anyone! There are no prerequisites for this course.`},
+    {question: "How many units is it?",
+    answer: `This DeCal is 1 unit and P/NP.`},
+    {question: "When is it?",
+    answer: `This semester, we will be holding in-person classes on Monday from 8-9:30PM PST at the Bakar BioEnginuity Hub Studio.`},
+]
+
+
 const past_projects = [
     {
         industry: "Medical Devices",
@@ -341,8 +384,10 @@ export { curr_sem };
 export { home_carousel_testimonials };
 export { phoenix_role_cards };
 export { alumni_companies };
+export { decal_faq_questions };
 export { research_institutions };
 export { recruitment_events };
 export { student_faq };
+export { decal_instructors };
 export { company_faq, projects_carousel, project_timeline, past_projects, virtual_events_zoom_link };
 export { sponsors_and_affiliates };

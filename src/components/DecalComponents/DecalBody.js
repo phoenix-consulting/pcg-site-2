@@ -2,12 +2,42 @@ import React from 'react'
 import InfoSec from '../InfoSec/InfoSec'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container'
 
-import { past_projects } from '../../constants'
+import { decal_instructors, decal_faq_questions } from '../../constants'
 import styles from '../ProjectsComponents/PastProjects.module.css'
+import infoStyle from '../InfoSec/InfoSec.module.css'
+import faqStyle from '../ApplyComponents/ApplyFAQ.module.css'
 
 const DecalBody = () => {
-    const pastProjectCards = past_projects.map((projObj) => {
+
+    const titleStyles = [infoStyle.infoSecTitle];
+    const subtitleStyles = [infoStyle.infoSecDescription];
+    const regtitleStyles = [infoStyle.infoSecRegTitle];
+    const headerStyles = [];
+    const bgStyles = [infoStyle.bg];
+    const smallSubStyles = [infoStyle.infoSecSmallSub];
+
+    const faq_questions = decal_faq_questions.map((faqObject, index) => {
+            if (index == 2) {
+                return (
+                    <div className={faqStyle.questionWrapper}>
+                    <div className={faqStyle.question}>{faqObject.question}</div>
+                    <div className={faqStyle.answer}>{faqObject.answer}</div>
+                    <div className={faqStyle.answer}>{faqObject.answer2}</div>
+                    </div>
+                )
+            }
+        
+            return (
+                <div className={faqStyle.questionWrapper}>
+                    <div className={faqStyle.question}>{faqObject.question}</div>
+                    <div className={faqStyle.answer}>{faqObject.answer}</div>
+                </div>
+            )
+        })
+
+    const pastProjectCards = decal_instructors.map((projObj) => {
             return (
                 <Col style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div className={styles.cardWrapper}>
@@ -15,8 +45,8 @@ const DecalBody = () => {
                     <img src={"./pastclients/" + projObj.image} className={styles.cardImage}/>
                     </div>
                     <div className={styles.textWrapper}>
-                    <div className={styles.cardTitle}><b>Industry: </b>{projObj.industry}</div>
-                    <div className={styles.cardType}><b>Service: </b>{projObj.type}</div>
+                    <div className={styles.cardTitle}><b>{projObj.name} ({projObj.role}) </b></div>
+                    <div className={styles.cardType}><b>Pronouns: </b>{projObj.pronouns}</div>
                     </div>
                 </div>
                 </Col>
@@ -38,33 +68,24 @@ const DecalBody = () => {
                     <a href="https://docs.google.com/document/d/18Hi4T6ICq4Ow9isT1ccPp5EZJSsQUhfJrgx58L3r6rE/edit"> here</a>
                 </div>
             </InfoSec>
-            <div style={{padding:50}}>
-                <div>
-                    Who can apply?
-                </div>
-                <div>
-                    Anyone! There are no prerequisites for this course. 
-                </div>
-                <div>
-                    How many units is it? 
-                </div>
-                <div>
-                    This DeCal is 1 unit and P/NP. 
-                </div>
-                <div>
-                    When is it?
-                </div>
-                <div>
-                    This semester, we will be holding in-person classes on Monday from 8-9:30PM PST at the Bakar BioEnginuity Hub Studio. 
-                </div>
+
+            <div id="faq">
+                <InfoSec regtitle="Frequently Asked Questions" background="white">
+                    {faq_questions}
+                </InfoSec>
             </div>
-            <InfoSec regtitle="Selected Past Projects" 
-            smallsubtitle="For more specific work samples, check out our Contact Us page!"
+
+            <InfoSec regtitle="Course Staff" 
+            smallsubtitle=""
             background="gray">
-            <Row lg={4}>
+            <Row lg={3}>
                 {pastProjectCards}
             </Row>
             </InfoSec>
+
+            <div>
+                Mentors Section
+            </div>
         </div>
     )
 }
