@@ -206,32 +206,38 @@ const decal_instructors = [
     {
         name: "Ayushi Balan",
         role: "Instructor",
-        pronouns: "She/Her/Hers"
+        pronouns: "She/Her/Hers",
+        image: 0
     },
     {
         name: "Angeline Tu",
         role: "Instructor",
-        pronouns: "She/Her/Hers"
+        pronouns: "She/Her/Hers",
+        image: 0
     },
     {
         name: "Ishan Balakrishnan",
         role: "TA",
-        pronouns: "He/Him/His"
+        pronouns: "He/Him/His",
+        image: 0
     },
     {
         name: "Nathan Hsu",
         role: "TA",
-        pronouns: "He/Him/His"
+        pronouns: "He/Him/His",
+        image: 0
     },
     {
         name: "Brightan Ying",
         role: "TA",
-        pronouns: "He/Him/His"
+        pronouns: "He/Him/His",
+        image: 0
     },
     {
         name: "Alexis Balashov",
         role: "TA",
-        pronouns: "She/Her/Hers"
+        pronouns: "She/Her/Hers",
+        image: 0
     },
 ]
 
@@ -308,16 +314,13 @@ const past_projects = [
     }
 ]
 
-
-
-
 const recruitment_events = [
     {event: "Infosession 1 (August 29)", dateTime: "Evans 60, 8-10 PM", 
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
     {event: "Diversity in Business Night with BWIB, HUBBA, and LBSA (August 30)", dateTime: "Hearst Field Annex 1A, 8-9 PM",
-    description: `TO BE UPDATED`},
+    description: `We highly recommend you come out to our Diversity in Business Night to learn about a wide range of impacts you can have in different Business clubs on campus. The term "diversity" has multiple layers behind it, so we are proud to partner with 3 amazing organizations to share our unique experiences with prospective applicants. After hearing about each club, you can also use the rest of the evening to network with members from all 4 organizations and stay for Phoenix's second Infosession from 9-10!`},
     {event: "Infosession 2 (August 30)", dateTime: "Hearst Field Annex 1A, 9-10 PM",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`},

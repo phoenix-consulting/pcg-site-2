@@ -9,6 +9,8 @@ import styles from '../ProjectsComponents/PastProjects.module.css'
 import infoStyle from '../InfoSec/InfoSec.module.css'
 import faqStyle from '../ApplyComponents/ApplyFAQ.module.css'
 
+import yusherz from './instructors/yusherz.jpg'
+
 const DecalBody = () => {
 
     const titleStyles = [infoStyle.infoSecTitle];
@@ -17,6 +19,7 @@ const DecalBody = () => {
     const headerStyles = [];
     const bgStyles = [infoStyle.bg];
     const smallSubStyles = [infoStyle.infoSecSmallSub];
+    const instructors = {yusherz}
 
     const faq_questions = decal_faq_questions.map((faqObject, index) => {
             if (index == 2) {
@@ -42,7 +45,8 @@ const DecalBody = () => {
                 <Col style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div className={styles.cardWrapper}>
                     <div className={styles.imageWrapper}>
-                    <img src={"./pastclients/" + projObj.image} className={styles.cardImage}/>
+                    <img src={instructors[projObj.image]} className={styles.cardImage}/>
+                    <img src={0} className={styles.cardImage}/>
                     </div>
                     <div className={styles.textWrapper}>
                     <div className={styles.cardTitle}><b>{projObj.name} ({projObj.role}) </b></div>

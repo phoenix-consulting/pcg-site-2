@@ -45,7 +45,7 @@ const ApplyTimeline = () => {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSf6kb6X-5S5LmttfMvlu2Q8Ri_FPxly8ipvasKhgsQ2HwFwJQ/viewform">
                     Coffee Chat Us!</Button>
                 <Button className={styles.Button} 
-                href="https://forms.gle/JNSkrPDuQTwRf99G8">
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe5oXDM2dPMHRLdVmO9gjTEdb0iBD6GedQLki-qqyxyLRydRw/viewform">
                     Mailing List</Button>
             </div>
 
