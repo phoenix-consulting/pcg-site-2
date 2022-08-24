@@ -38,7 +38,7 @@ const ApplyTimeline = () => {
                 </h3>
                 </Container>
             </div>
-            <InfoSec background="gray" alignment="center" regtitle="Spring 2022 Recruitment Timeline" subtitle="All times are shown in PST." >
+            <InfoSec background="gray" alignment="center" regtitle="Fall 2022 Recruitment Timeline" subtitle="All times are shown in PST." >
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
                 <Button className={styles.Button}
