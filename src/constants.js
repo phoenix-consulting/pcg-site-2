@@ -206,38 +206,38 @@ const decal_instructors = [
     {
         name: "Ayushi Balan",
         role: "Instructor",
+        image: "https://drive.google.com/uc?export=view&id=1qOEob6nAwqZyqi_3nDfbThauAN73NZ2u",
         pronouns: "She/Her/Hers",
-        image: 0
     },
     {
         name: "Angeline Tu",
         role: "Instructor",
         pronouns: "She/Her/Hers",
-        image: 0
+        image:"https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
     },
     {
         name: "Ishan Balakrishnan",
         role: "TA",
         pronouns: "He/Him/His",
-        image: 0
+        image:"https://drive.google.com/uc?export=view&id=1gUpZX-48asRX6FsbgscmfGyD_Kd_e5nB",
     },
     {
         name: "Nathan Hsu",
         role: "TA",
         pronouns: "He/Him/His",
-        image: 0
+        image:"https://drive.google.com/uc?export=view&id=1_c3Ghk1ndRZbdeMbP1oX91WcztUJhrFV",
     },
     {
         name: "Brightan Ying",
         role: "TA",
         pronouns: "He/Him/His",
-        image: 0
+        image:"https://drive.google.com/uc?export=view&id=1ybxkaZK7p7JHJCH9ZWM81n-lVS4Efzr1",
     },
     {
         name: "Alexis Balashov",
         role: "TA",
         pronouns: "She/Her/Hers",
-        image: 0
+        image:"https://drive.google.com/uc?export=view&id=1ekJpbmAKM-Ip-dE0-QoKxsi6uxcDkeWn",
     },
 ]
 

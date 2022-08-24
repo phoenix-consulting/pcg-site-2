@@ -45,8 +45,8 @@ const DecalBody = () => {
                 <Col style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div className={styles.cardWrapper}>
                     <div className={styles.imageWrapper}>
-                    <img src={instructors[projObj.image]} className={styles.cardImage}/>
-                    <img src={0} className={styles.cardImage}/>
+                    <img src={projObj.image} className={styles.cardImage} style={{marginTop: -1, marginBottom: -1, paddingLeft: -10, paddingRight: -10, borderRadius: 4}}/>
+                
                     </div>
                     <div className={styles.textWrapper}>
                     <div className={styles.cardTitle}><b>{projObj.name} ({projObj.role}) </b></div>
@@ -59,12 +59,13 @@ const DecalBody = () => {
 
     return (
         <div>
+            <img src={instructors[0]} className={styles.cardImage}/>
             <InfoSec
                 regtitle="Course Description"
                 smallsubtitle="Introduction to Healthcare Consulting is an 11-week long introductory course designed for students with an interest in business or healthcare."
                 smallsubtitle2="The first few weeks of the course are lecture-based and will delve into the variety of careers in healthcare, current problems in the industry, and provide an introduction to adjacent fields such as biotechnology and pharmaceuticals."
                 smallsubtitle3="The second half of the course will be focused on group work, simulating a healthcare consulting case and equipping students with the fundamental skills required to pursue a career in healthcare consulting. Overall, this course will provide students with an engaging and comprehensive look into healthcare consulting and adjacent industries."
-                background="white"
+                background="gray"
                 alignment="left"
             >
                 <div>
