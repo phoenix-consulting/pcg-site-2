@@ -274,7 +274,7 @@ const recruitment_events = [
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
     {event: "Diversity in Business Night with BWIB, HUBBA, and LBSA (August 30)", dateTime: "Hearst Field Annex 1A, 8-9 PM",
-    description: `TO BE UPDATED`},
+    description: `We highly recommend you come out to our Diversity in Business Night to learn about a wide range of impacts you can have in different Business clubs on campus. The term "diversity" has multiple layers behind it, so we are proud to partner with 3 amazing organizations to share our unique experiences with prospective applicants. After hearing about each club, you can also use the rest of the evening to network with members from all 4 organizations and stay for Phoenix's second Infosession from 9-10!`},
     {event: "Infosession 2 (August 30)", dateTime: "Hearst Field Annex 1A, 9-10 PM",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`},
