@@ -10,6 +10,7 @@ import infoStyle from '../InfoSec/InfoSec.module.css'
 import faqStyle from '../ApplyComponents/ApplyFAQ.module.css'
 
 import yusherz from './instructors/yusherz.jpg'
+import { BoldOutlined, LeftCircleFilled } from '@ant-design/icons'
 
 const DecalBody = () => {
 
@@ -45,7 +46,7 @@ const DecalBody = () => {
                 <Col style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div className={styles.cardWrapper}>
                     <div className={styles.imageWrapper}>
-                    <img src={projObj.image} className={styles.cardImage} style={{marginTop: -1, marginBottom: -1, paddingLeft: -10, paddingRight: -10, borderRadius: 4}}/>
+                    <img src={projObj.image} className={styles.cardImage} style={{borderRadius: 5, width:250, marginTop:20}}/>
                 
                     </div>
                     <div className={styles.textWrapper}>
@@ -77,6 +78,10 @@ const DecalBody = () => {
             <div id="faq">
                 <InfoSec regtitle="Frequently Asked Questions" background="white">
                     {faq_questions}
+                    <div>
+                        Questions? Email us at 
+                        <a href = "mailto: ihcdecal@gmail.com"> ihcdecal@gmail.com.</a>
+                    </div>
                 </InfoSec>
             </div>
 
@@ -88,9 +93,37 @@ const DecalBody = () => {
             </Row>
             </InfoSec>
 
-            <div>
-                Mentors Section
+            <div className='DecalRow' style={{margin:100}}>
+                <div style={{textAlign:'center', marginTop:-40, marginBottom:30, fontWeight:'bold', fontSize: 27}}>
+                    Course Mentors
+                </div>
+                <div className='DecalCol' style={{float: 'left', width:'30%', marginRight:20, textAlign:'center'}}>
+                    <div style={{paddingBottom: 20, fontSize: 24, fontWeight: 'bold'}}>
+                        Richard Harland
+                    </div>
+                    <div>
+                        Richard Harland is a Professor of Genetics, Genomics, and Development and has a highly specialized technical background in biology. 
+                    </div>
+                </div>
+                <div className='DecalCol' style={{display: 'inline-block', width:'30%', marginLeft:40, textAlign:'center'}}>
+                    <div style={{paddingBottom: 20, fontSize: 24, fontWeight: 'bold'}}>
+                        Darren Cooke
+                    </div>
+                    <div>
+                        Darren Cooke is the Executive Director of Berkeley’s Life Sciences Entrepreneurship Center and has a rich background in healthcare, business, and entrepreneurship. 
+                    </div>
+                </div>
+                <div className='DecalCol' style={{float: 'right', width:'30%', marginLeft: 20, textAlign:'center'}}>
+                    <div style={{paddingBottom: 20, fontSize: 24, fontWeight: 'bold'}}>
+                        Biotech Connection Bay Area
+                    </div>
+                    <div>
+                        This course is also mentored by Biotech Connection Bay Area, a 501(c)3 non-profit organization led by graduate students and postdoctoral scholars in the San Francisco Bay Area. Learn more about them
+                        <a href="https://biotechconnectionbay.org/"> here.</a>
+                    </div>
+                </div>
             </div>
+            
         </div>
     )
 }
