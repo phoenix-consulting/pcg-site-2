@@ -42,18 +42,11 @@ const ApplyTimeline = () => {
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
                 <Button className={styles.Button}
-                href="https://forms.gle/E7ACmHZazRCytPTq9">
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf6kb6X-5S5LmttfMvlu2Q8Ri_FPxly8ipvasKhgsQ2HwFwJQ/viewform">
                     Coffee Chat Us!</Button>
-                <Button className={styles.Button}
-                href="https://docs.google.com/document/d/1xnHKdM7J3XlZZABDwSabFM3BqF3MViWe8OYMCWa-LGw/edit?usp=sharing">
-                    Virtual Tabling</Button>
                 <Button className={styles.Button} 
                 href="https://forms.gle/JNSkrPDuQTwRf99G8">
                     Mailing List</Button>
-                <Button className={styles.Button}
-                href="https://berkeley.zoom.us/j/7946814415">
-                    Event Zoom Link
-                </Button>
             </div>
 
 

@@ -269,32 +269,29 @@ const past_projects = [
 
 
 const recruitment_events = [
-    {event: "Infosession 1 (Virtual)", dateTime: "Monday, 1/24 8-10pm", 
+    {event: "Infosession 1 (August 29)", dateTime: "Evans 60, 8-10 PM", 
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
-    {event: "Womxn's Event (Virtual)", dateTime: "Tuesday, 1/25 8-9pm",
-    description: `The women of Phoenix will present their experience in business in a slightly smaller setting.`},
-    {event: "Infosession 2 (Virtual)", dateTime: "Tuesday, 1/25 9-10:00pm",
+    {event: "Diversity in Business Night with BWIB, HUBBA, and LBSA (August 30)", dateTime: "Hearst Field Annex 1A, 8-9 PM",
+    description: `TO BE UPDATED`},
+    {event: "Infosession 2 (August 30)", dateTime: "Hearst Field Annex 1A, 9-10 PM",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`},
-    {event: "In Person Networking Session [New]", dateTime: "Wednesday, 1/26 6-7:00pm",
-    description: `We are excited to announce that we will be holding an optional in-person networking session at the Haas Courtyard! Come out for a chance to meet our members in real life.
-    Masks are required and all Phoenix members will have a negative PCR test within three days.`},
-    {event: "Case Workshop", dateTime: "Thursday, 1/27 8-10pm",
+    {event: "Case Workshop (September 1)", dateTime: "Dwinelle 145, 8-10 PM",
     description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
     then split into smaller groups and go through an example case together.`},
-    {event: "Application Due", dateTime: "Friday, 1/28 5pm",
+    {event: "Application Due (September 2)", dateTime: "4:00 PM Deadline",
     description: `Our application involves a couple of short answer questions and uploading a few documents like your resume.
     Check out our recruitment guide and our FAQ for tips.`},
-    {event: "First Round Interviews", dateTime: "Sunday, 1/30",
+    {event: "Individual Interviews (September 3)", dateTime: "Social Sciences Building",
     description: `After we review applications, some candidates will be invited to schedule individual interviews. The interviews
     will have a behavioral and a case component. Check out our recruitment guide for tips on preparation.`},
-    {event: "Meet Phoenix", dateTime: "Tuesday, 2/1 7-9:30pm",
+    {event: "Social Night (September 3)", dateTime: "Location TBD",
     description: `We'll invite successful first round candidates to a virtual social event! This event doesn't
     factor into your candidacy, and it's your chance to meet members in a
     more casual setting. In other words, it's a chance for you to see if we're a good fit for you. `},
-    {event: "Group Interviews", dateTime: "Wednesday, 2/2",
+    {event: "Group Interviews (September 4)", dateTime: "Social Sciences Building",
     description: `Our final round interviews involve a more complex case than the individual round, one that's hard to
     solve unless you work effectively with your group. For tips on how to prepare, check out our recruitment guide.`}
 ]
