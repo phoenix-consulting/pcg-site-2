@@ -22,21 +22,21 @@ const DecalBody = () => {
     const smallSubStyles = [infoStyle.infoSecSmallSub];
     const instructors = {yusherz}
 
-    const faq_questions = decal_faq_questions.map((faqObject, index) => {
+    const questions = decal_faq_questions.map((faqObj, index) => {
             if (index == 2) {
                 return (
                     <div className={faqStyle.questionWrapper}>
-                    <div className={faqStyle.question}>{faqObject.question}</div>
-                    <div className={faqStyle.answer}>{faqObject.answer}</div>
-                    <div className={faqStyle.answer}>{faqObject.answer2}</div>
+                    <div className={faqStyle.question}>{faqObj.question}</div>
+                    <div className={faqStyle.answer}>{faqObj.answer}</div>
+                    <div className={faqStyle.answer}>{faqObj.answer2}</div>
                     </div>
                 )
             }
         
             return (
                 <div className={faqStyle.questionWrapper}>
-                    <div className={faqStyle.question}>{faqObject.question}</div>
-                    <div className={faqStyle.answer}>{faqObject.answer}</div>
+                    <div className={faqStyle.question}>{faqObj.question}</div>
+                    <div className={faqStyle.answer}>{faqObj.answer}</div>
                 </div>
             )
         })
@@ -77,7 +77,7 @@ const DecalBody = () => {
 
             <div id="faq">
                 <InfoSec regtitle="Frequently Asked Questions" background="white">
-                    {faq_questions}
+                    {questions}
                     <div>
                         Questions? Email us at 
                         <a href = "mailto: ihcdecal@gmail.com"> ihcdecal@gmail.com.</a>
