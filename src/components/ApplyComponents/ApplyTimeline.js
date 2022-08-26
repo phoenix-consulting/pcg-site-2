@@ -29,15 +29,6 @@ const ApplyTimeline = () => {
     })
     return (
         <div>
-            <div className={styles.virtualBanner}>
-                <Container>
-                <h3 className={styles.virtualBannerText}>In accordance with Phoenix's values and work toward promoting the health
-                    of our community, all of our indoor events will be held virtually. However, we are
-                    putting on a outdoor networking session next Wednesday. Scroll down for more details!
-                    And of course, we welcome you to chat with us at our table on lower Sproul.
-                </h3>
-                </Container>
-            </div>
             <InfoSec background="gray" alignment="center" regtitle="Fall 2022 Recruitment Timeline" subtitle="All times are shown in PST." >
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
