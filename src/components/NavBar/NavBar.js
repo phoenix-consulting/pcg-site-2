@@ -74,6 +74,9 @@ const NavBar = (props) => {
                             <Link to='/apply' className={navLinkStyles.join(' ')}>Join</Link>
                         </Nav.Item>
                         <Nav.Item className={styles.navlinkBox}>
+                            <a href="/decal" className={navLinkStyles.join(' ')}>Decal</a>
+                        </Nav.Item>
+                        <Nav.Item className={styles.navlinkBox}>
                             <a href="https://readysethealth.io" className={navLinkStyles.join(' ')}>Health Engine</a>
                         </Nav.Item>
                     </Nav>
