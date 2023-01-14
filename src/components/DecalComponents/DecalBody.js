@@ -71,7 +71,7 @@ const DecalBody = () => {
             >
                 <div>
                     Check out the syllabus  
-                    <a href="https://docs.google.com/document/d/18Hi4T6ICq4Ow9isT1ccPp5EZJSsQUhfJrgx58L3r6rE/edit"> here</a>
+                    <a href="https://docs.google.com/document/d/13MZHTgfgEusWo8M7wsO0tY-BnQzSckfKnciR1JIKC8I/edit"> here</a>
                 </div>
             </InfoSec>
 
