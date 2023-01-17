@@ -1,3 +1,16 @@
+import pfizer from '../static/pastclients/pfizer.png'
+import dell from '../static/pastclients/dell.png'
+import nvidia from '../static/pastclients/nvidia.png'
+import medable from '../static/pastclients/medable.png'
+import varian from '../static/pastclients/varian.png'
+import hubly from '../static/pastclients/hubly.png'
+import kaiser from '../static/pastclients/kaiser.png'
+import datavant from '../static/pastclients/datavant.png'
+import medtronic from '../static/pastclients/medtronic.png'
+import myriad from '../static/pastclients/myriad.png'
+import nextnet from '../static/pastclients/nextnet.png'
+import redcross from '../static/pastclients/redcross.png'
+
 const social_media_links = [
     {name: "Email", link: "mailto:president@phoenix.berkeley.edu", image: 'email.png'},
     {name: "Facebook", link: "https://www.facebook.com/ucbpcg/", image: "facebook.png"},
@@ -251,66 +264,67 @@ const decal_faq_questions = [
 ]
 
 
+
 const past_projects = [
     {
         industry: "Big Pharma",
         type: "Customer Analysis",
-        image: "pfizer.png"
+        image: pfizer
     },
     {
         industry: "Health Tech",
         type: "Market Research",
-        image: "dell.png"
+        image: dell
     },
     {
         industry: "AI and Computing",
         type: "Influencer Campaign",
-        image: "nvidia.png"
+        image: nvidia
     },
     {
         industry: "Clinical Trials",
         type: "Market Entry",
-        image: "medable.png"
+        image: medable
     },
     {
         industry: "Radiation Oncology",
         type: "Investment Prioritization",
-        image: "varian.png"
+        image: varian
     },
     {
         industry: "Medical Devices",
         type: "Sales & Marketing",
-        image: "hubly.png"
+        image: hubly
     },
     {
         industry: "Healthcare",
         type: "Market Research",
-        image: "kaiser.png"
+        image: kaiser
     },
     {
         industry: "Information Technology",
         type: "Market Entry",
-        image: "datavant.png"
+        image: datavant
     },
     {
         industry: "Medical Devices",
         type: "Operations and Quality",
-        image: "medtronic.png"
+        image: medtronic
     },
     {
         industry: "Diagnostics",
         type: "Financial Analysis",
-        image: "myriad.png"
+        image: myriad
     },
     {
         industry: "Software",
         type: "Customer Identification",
-        image: "nextnet.png"
+        image: nextnet
     },
     {
         industry: "Humanitarian Nonprofit",
         type: "Data Analysis",
-        image: "redcross.png"
+        image: redcross
     }
 ]
 

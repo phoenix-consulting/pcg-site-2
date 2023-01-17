@@ -13,7 +13,7 @@ const PastProjects = () => {
             <Col style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
             <div className={styles.cardWrapper}>
                 <div className={styles.imageWrapper}>
-                <img src={"./pastclients/" + projObj.image} className={styles.cardImage}/>
+                <img src={projObj.image} className={styles.cardImage}/>
                 </div>
                 <div className={styles.textWrapper}>
                 <div className={styles.cardTitle}><b>Industry: </b>{projObj.industry}</div>
