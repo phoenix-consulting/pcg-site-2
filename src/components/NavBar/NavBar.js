@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav"
 import Container from "react-bootstrap/Container"
 import { Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import light from "../../images/pcg-logo-light.png"
+import dark from "../../images/pcg-logo-dark.png"
 
 
 import styles from './NavBar.module.css'
@@ -48,11 +50,11 @@ const NavBar = (props) => {
                         <Link to='/'>
                         {isLight ? (
                             <Img
-                            fixed={data.redLogo.childImageSharp.fixed}
+                            fixed={light}
                             alt="PCG logo"/>
                         ) : (
                             <Img
-                            fixed={data.redLogo.childImageSharp.fixed}
+                            fixed={dark}
                             alt="PCG logo"/>
                         )
                         }

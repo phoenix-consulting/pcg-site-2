@@ -17,7 +17,7 @@ const count_up_objs = [
 const curr_sem = {
     in_caps: "Spring 2023", 
     capitalized: "Spring 2023",
-    phoenix_in: "PHOENIX IN SPRING 2023"
+    phoenix_in: "PHOENIX IN FALL 2022"
 }
 
 const curr_sem_projs = [
@@ -253,29 +253,29 @@ const decal_faq_questions = [
 
 const past_projects = [
     {
-        industry: "Medical Devices",
-        type: "Sales & Marketing",
-        image: "avive.png"
+        industry: "Big Pharma",
+        type: "Customer Analysis",
+        image: "pfizer.png"
     },
     {
-        industry: "Insurtech",
-        type: "Product Development",
-        image: "clover.png"
-    },
-    {
-        industry: "Hospital Systems",
-        type: "DEI Strategy",
-        image: "commonspirit.png"
-    },
-    {
-        industry: "Software",
+        industry: "Health Tech",
         type: "Market Research",
-        image: "enzyme.png"
+        image: "dell.png"
     },
     {
-        industry: "Elderly Care",
-        type: "Human Capital",
-        image: "hca.png"
+        industry: "AI and Computing",
+        type: "Influencer Campaign",
+        image: "nvidia.png"
+    },
+    {
+        industry: "Clinical Trials",
+        type: "Market Entry",
+        image: "medable.png"
+    },
+    {
+        industry: "Radiation Oncology",
+        type: "Investment Prioritization",
+        image: "varian.png"
     },
     {
         industry: "Medical Devices",
@@ -288,9 +288,9 @@ const past_projects = [
         image: "kaiser.png"
     },
     {
-        industry: "Hospital Systems",
-        type: "Compliance and Innovation",
-        image: "lifebridge.png"
+        industry: "Information Technology",
+        type: "Market Entry",
+        image: "datavant.png"
     },
     {
         industry: "Medical Devices",
@@ -303,9 +303,9 @@ const past_projects = [
         image: "myriad.png"
     },
     {
-        industry: "Diagnostics",
-        type: "Financial Analysis",
-        image: "pinpoint.png"
+        industry: "Software",
+        type: "Customer Identification",
+        image: "nextnet.png"
     },
     {
         industry: "Humanitarian Nonprofit",
