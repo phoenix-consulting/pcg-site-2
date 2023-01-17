@@ -1,8 +1,8 @@
 import React from 'react'
 import SEO from '../components/SEO'
 import Layout from '../components/Layout/Layout'
-import DecalBanner from '../components/DecalComponents/DecalBanner'
 import DecalBody from '../components/DecalComponents/DecalBody'
+import DecalBanner from '../components/DecalComponents/DecalBanner'
 
 const Decal = () => {
     return (
@@ -16,4 +16,4 @@ const Decal = () => {
     )
 }
 
-export default Decal
+export default Decal;

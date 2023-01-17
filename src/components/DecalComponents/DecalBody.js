@@ -21,7 +21,7 @@ const DecalBody = () => {
     const bgStyles = [infoStyle.bg];
     const smallSubStyles = [infoStyle.infoSecSmallSub];
     const instructors = {yusherz}
-
+    
     const faq_questions = decal_faq_questions.map((faqObject, index) => {
             if (index == 2) {
                 return (
