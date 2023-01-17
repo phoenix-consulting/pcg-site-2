@@ -16,7 +16,7 @@ const HomeCurr = () => {
         return (
             <div style={{display: "flex", justifyContent: "center"}}>
             <InfoCard
-            height="400px"
+            height="420px"
             titleHeight="35px"
             width="200px"
             backgroundColor="#266f8b"
@@ -44,10 +44,8 @@ const HomeCurr = () => {
 
     return (
         <InfoSec
-            title={curr_sem.phoenix_in}
-            subtitle="This semester, our projects range from global expansion to DEI strategy."
-            title="PHOENIX IN SPRING 2022"
-            subtitle="This semester, our projects range from international marketing strategy to therapeutic treatment analysis."
+            title="PHOENIX IN FALL 2022"
+            subtitle="This semester, our projects range from data management market research to CRO lab services."
             alignment="center"
             background="gray"
         >
@@ -55,16 +53,16 @@ const HomeCurr = () => {
             {clientCards}
             <div>
             <InfoCard
-                height="190px"
+                height="210px"
                 width="200px"
                 titleHeight="16px"
                 backgroundColor="#e54a51"
                 title="Ready, Set, Health!"
-                description="We're building a healthcare accelerator! Check out the Demo Day link for more information."
+                description="We're building a healthcare accelerator! Visit readysethealth.io for more information."
                 >
                 </InfoCard>
             <InfoCard
-                height="190px"
+                height="210"
                 width="200px"
                 titleHeight="16px"
                 backgroundColor="#e54a51"

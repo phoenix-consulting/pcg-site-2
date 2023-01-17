@@ -21,22 +21,22 @@ const DecalBody = () => {
     const bgStyles = [infoStyle.bg];
     const smallSubStyles = [infoStyle.infoSecSmallSub];
     const instructors = {yusherz}
-
-    const questions = decal_faq_questions.map((faqObj, index) => {
+    
+    const faq_questions = decal_faq_questions.map((faqObject, index) => {
             if (index == 2) {
                 return (
                     <div className={faqStyle.questionWrapper}>
-                    <div className={faqStyle.question}>{faqObj.question}</div>
-                    <div className={faqStyle.answer}>{faqObj.answer}</div>
-                    <div className={faqStyle.answer}>{faqObj.answer2}</div>
+                    <div className={faqStyle.question}>{faqObject.question}</div>
+                    <div className={faqStyle.answer}>{faqObject.answer}</div>
+                    <div className={faqStyle.answer}>{faqObject.answer2}</div>
                     </div>
                 )
             }
         
             return (
                 <div className={faqStyle.questionWrapper}>
-                    <div className={faqStyle.question}>{faqObj.question}</div>
-                    <div className={faqStyle.answer}>{faqObj.answer}</div>
+                    <div className={faqStyle.question}>{faqObject.question}</div>
+                    <div className={faqStyle.answer}>{faqObject.answer}</div>
                 </div>
             )
         })
@@ -71,13 +71,13 @@ const DecalBody = () => {
             >
                 <div>
                     Check out the syllabus  
-                    <a href="https://docs.google.com/document/d/18Hi4T6ICq4Ow9isT1ccPp5EZJSsQUhfJrgx58L3r6rE/edit"> here</a>
+                    <a href="https://docs.google.com/document/d/13MZHTgfgEusWo8M7wsO0tY-BnQzSckfKnciR1JIKC8I/edit"> here</a>
                 </div>
             </InfoSec>
 
             <div id="faq">
                 <InfoSec regtitle="Frequently Asked Questions" background="white">
-                    {questions}
+                    {faq_questions}
                     <div>
                         Questions? Email us at 
                         <a href = "mailto: ihcdecal@gmail.com"> ihcdecal@gmail.com.</a>

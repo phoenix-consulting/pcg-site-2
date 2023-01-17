@@ -9,30 +9,30 @@ const social_media_links = [
 
 const count_up_objs = [
     {number: 4, description: "Projects every semester"},
-    {number: 50, description: "Deliverables completed so far"},
-    {number: 38, description: "Active members and 70+ alumni"},
+    {number: 58, description: "Deliverables completed so far"},
+    {number: 38, description: "Active members and 80+ alumni"},
     {number: 1, description: "Phoenix family"},
 ]
 
 const curr_sem = {
-    in_caps: "SPRING 2022", 
-    capitalized: "Spring 2022",
-    phoenix_in: "PHOENIX IN SPRING 2022"
+    in_caps: "Spring 2023", 
+    capitalized: "Spring 2023",
+    phoenix_in: "PHOENIX IN FALL 2022"
 }
 
 const curr_sem_projs = [
-    {name: "Client: x-Therma",
+    {name: "Client: Dell",
     description: 
-        `x-Therma is an emerging series A startup in the cryopreservation space, working to solve the issues of ice-crystal expansion and cell rupturing via novel tissue/cell storage and transportation solutions. Phoenix will be working with x-Therma on market entry and branding strategy.`},
-    {name: "Client: Nvidia",
+        `DELL is a multinational electronics & technology company that is actively exploring how to improve the digitalization of health via modernized IT, virtual health delivery, and securing/storing healthcare data. Phoenix conducted market research to determine how DELL can become a leader in the life sciences data management space through addressing unmet customer needs.`},
+    {name: "Client: Medable",
     description: 
-        `Nvidia is a multinational technology company mainly known for developing GPUs and computing equipment. Nvidia is making a push to power new breakthroughs in healthcare and life sciences by accelerating AI and computing research. Phoenix will be working to design an influencer campaign for Nvidia to become a leader in the biopharma space.`},
-    {name: "Client: Varian",
+        `Medable, a Series D startup specializing in decentralized clinical trials (DCTs) is changing the way clinical trials are performed. With innovative techniques, Medable has converted key facets of trials into virtual forms, increasing access and accuracy.  Phoenix helped Medable identify and tackle growing therapeutic areas to differentiate them from their competitors in the general clinical trials space.`},
+    {name: "Client: NExTNET",
     description:
-        `Varian is a radiation oncology company focusing on linear accelerators and software for treating conditions with radiotherapy, radiosurgery, and photon therapy. Phoenix will be working to help Varian better understand the focal therapy space in prostate cancer and prioritize business investments.`},
-    {name: "Client: Datavant",
+        `NExTNET is an SF-based software startup building an Explainable AI platform that transforms unstructured or semi-structured data into a human-understandable Ontology. Phoenix identified the total addressable market and core customers in the drug development space to help NExTNET successfully launch their product.`},
+    {name: "Client: GnomeDX",
     description:
-        `Datavant is a health information technology company building a digital ecosystem for the transfer and exchange of healthcare data, enabling corporations to match and share patient information. Phoenix is working with Datavant to better understand market entry strategy and design considerations for a new product they are launching in the matching space.`
+        `Gnome is a Contract Research Organization and lab that offers scientific testing, diagnostic services, and research design. Phoenix dove into the services and techniques within this space to discover which would be the most promising for Gnome’s continued or novel investment and developed new and improved ways for Gnome to work with their clients.`
     }
 ]
 
@@ -62,7 +62,7 @@ const phoenix_role_cards = [
     In addition to their first project, new analysts participate in our New Member Education Program (NMEP), 
     designed to develop thinkers who can identify and solve healthcare problems. 
     `},
-    {position: "Senior Analysts", description: `Senior analysts and associates are the driving force 
+    {position: "Senior Analysts/Associates", description: `Senior analysts and associates are the driving force 
     behind our client projects. They take the lead on work-streams, provide input to project leads, and 
     often push their specific expertise—whether technical, bio-related, or something else—in project workflows. 
     `},
@@ -202,31 +202,80 @@ const project_timeline = [
     }
 ]
 
+const decal_instructors = [
+    {
+        name: "Ayushi Balan",
+        role: "Instructor",
+        image: "https://drive.google.com/uc?export=view&id=1qOEob6nAwqZyqi_3nDfbThauAN73NZ2u",
+        pronouns: "She/Her/Hers",
+    },
+    {
+        name: "Angeline Tu",
+        role: "Instructor",
+        pronouns: "She/Her/Hers",
+        image:"https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
+    },
+    {
+        name: "Ishan Balakrishnan",
+        role: "TA",
+        pronouns: "He/Him/His",
+        image:"https://drive.google.com/uc?export=view&id=1gUpZX-48asRX6FsbgscmfGyD_Kd_e5nB",
+    },
+    {
+        name: "Nathan Hsu",
+        role: "TA",
+        pronouns: "He/Him/His",
+        image:"https://drive.google.com/uc?export=view&id=1_c3Ghk1ndRZbdeMbP1oX91WcztUJhrFV",
+    },
+    {
+        name: "Brightan Ying",
+        role: "TA",
+        pronouns: "He/Him/His",
+        image:"https://drive.google.com/uc?export=view&id=1ybxkaZK7p7JHJCH9ZWM81n-lVS4Efzr1",
+    },
+    {
+        name: "Alexis Balashov",
+        role: "TA",
+        pronouns: "She/Her/Hers",
+        image:"https://drive.google.com/uc?export=view&id=1ekJpbmAKM-Ip-dE0-QoKxsi6uxcDkeWn",
+    },
+]
+
+const decal_faq_questions = [
+    {question: "Who can apply?",
+    answer: `Anyone! There are no prerequisites for this course.`},
+    {question: "How many units is it?",
+    answer: `This DeCal is 1 unit and P/NP.`},
+    {question: "When is it?",
+    answer: `This semester, we will be holding in-person classes on Monday from 8-9:30PM PST at the Bakar BioEnginuity Hub Studio.`},
+]
+
+
 const past_projects = [
     {
-        industry: "Medical Devices",
-        type: "Sales & Marketing",
-        image: "avive.png"
+        industry: "Big Pharma",
+        type: "Customer Analysis",
+        image: "pfizer.png"
     },
     {
-        industry: "Insurtech",
-        type: "Product Development",
-        image: "clover.png"
-    },
-    {
-        industry: "Hospital Systems",
-        type: "DEI Strategy",
-        image: "commonspirit.png"
-    },
-    {
-        industry: "Software",
+        industry: "Health Tech",
         type: "Market Research",
-        image: "enzyme.png"
+        image: "dell.png"
     },
     {
-        industry: "Elderly Care",
-        type: "Human Capital",
-        image: "hca.png"
+        industry: "AI and Computing",
+        type: "Influencer Campaign",
+        image: "nvidia.png"
+    },
+    {
+        industry: "Clinical Trials",
+        type: "Market Entry",
+        image: "medable.png"
+    },
+    {
+        industry: "Radiation Oncology",
+        type: "Investment Prioritization",
+        image: "varian.png"
     },
     {
         industry: "Medical Devices",
@@ -239,9 +288,9 @@ const past_projects = [
         image: "kaiser.png"
     },
     {
-        industry: "Hospital Systems",
-        type: "Compliance and Innovation",
-        image: "lifebridge.png"
+        industry: "Information Technology",
+        type: "Market Entry",
+        image: "datavant.png"
     },
     {
         industry: "Medical Devices",
@@ -254,9 +303,9 @@ const past_projects = [
         image: "myriad.png"
     },
     {
-        industry: "Diagnostics",
-        type: "Financial Analysis",
-        image: "pinpoint.png"
+        industry: "Software",
+        type: "Customer Identification",
+        image: "nextnet.png"
     },
     {
         industry: "Humanitarian Nonprofit",
@@ -265,33 +314,31 @@ const past_projects = [
     }
 ]
 
-
-
-
 const recruitment_events = [
-    {event: "Infosession 1 (August 29)", dateTime: "Evans 60, 8-10 PM", 
+    {event: "Coffee Chats", dateTime: "January 17-27", description: `https://forms.gle/c4xcQVSeyJRMYhvS6`},
+    {event: "Infosession 1 (January 23)", dateTime: "Evans 60, 8-10 PM", 
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
-    {event: "Diversity in Business Night with BWIB, HUBBA, and LBSA (August 30)", dateTime: "Hearst Field Annex 1A, 8-9 PM",
+    {event: "Diversity in Business Night (January 25)", dateTime: "Wells Fargo Room - C420 Cheit, 8-9 PM",
     description: `We highly recommend you come out to our Diversity in Business Night to learn about a wide range of impacts you can have in different Business clubs on campus. The term "diversity" has multiple layers behind it, so we are proud to partner with 3 amazing organizations to share our unique experiences with prospective applicants. After hearing about each club, you can also use the rest of the evening to network with members from all 4 organizations and stay for Phoenix's second Infosession from 9-10!`},
-    {event: "Infosession 2 (August 30)", dateTime: "Hearst Field Annex 1A, 9-10 PM",
+    {event: "Infosession 2 (January 25)", dateTime: "Wells Fargo Room - C420 Cheit, 9-10 PM",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`},
-    {event: "Case Workshop (September 1)", dateTime: "Dwinelle 145, 8-10 PM",
+    {event: "Case Workshop (January 26)", dateTime: "Dwinelle 2nd floor rooms, TBD",
     description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
     then split into smaller groups and go through an example case together.`},
-    {event: "Application Due (September 2)", dateTime: "4:00 PM Deadline",
+    {event: "Application Due (January 27)", dateTime: "4:00 PM. We will have a grace period of 10 minutes.",
     description: `Our application involves a couple of short answer questions and uploading a few documents like your resume.
     Check out our recruitment guide and our FAQ for tips.`},
-    {event: "Individual Interviews (September 3)", dateTime: "Social Sciences Building",
+    {event: "Individual Interviews (January 28)", dateTime: "Location TBD",
     description: `After we review applications, some candidates will be invited to schedule individual interviews. The interviews
     will have a behavioral and a case component. Check out our recruitment guide for tips on preparation.`},
-    {event: "Social Night (September 3)", dateTime: "Location TBD",
+    {event: "Social Night (January 28)", dateTime: "Location TBD",
     description: `We'll invite successful first round candidates to a virtual social event! This event doesn't
     factor into your candidacy, and it's your chance to meet members in a
     more casual setting. In other words, it's a chance for you to see if we're a good fit for you. `},
-    {event: "Group Interviews (September 4)", dateTime: "Social Sciences Building",
+    {event: "Group Interviews (January 29)", dateTime: "Location TBD",
     description: `Our final round interviews involve a more complex case than the individual round, one that's hard to
     solve unless you work effectively with your group. For tips on how to prepare, check out our recruitment guide.`}
 ]
@@ -341,8 +388,10 @@ export { curr_sem };
 export { home_carousel_testimonials };
 export { phoenix_role_cards };
 export { alumni_companies };
+export { decal_faq_questions };
 export { research_institutions };
 export { recruitment_events };
 export { student_faq };
+export { decal_instructors };
 export { company_faq, projects_carousel, project_timeline, past_projects, virtual_events_zoom_link };
 export { sponsors_and_affiliates };
