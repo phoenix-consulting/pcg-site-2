@@ -235,12 +235,6 @@ const decal_instructors = [
         image:"https://drive.google.com/uc?export=view&id=1gUpZX-48asRX6FsbgscmfGyD_Kd_e5nB",
     },
     {
-        name: "Nathan Hsu",
-        role: "TA",
-        pronouns: "He/Him/His",
-        image:"https://drive.google.com/uc?export=view&id=1_c3Ghk1ndRZbdeMbP1oX91WcztUJhrFV",
-    },
-    {
         name: "Brightan Ying",
         role: "TA",
         pronouns: "He/Him/His",
@@ -260,7 +254,7 @@ const decal_faq_questions = [
     {question: "How many units is it?",
     answer: `This DeCal is 1 unit and P/NP.`},
     {question: "When is it?",
-    answer: `This semester, we will be holding in-person classes on Monday from 8-9:30PM PST at the Bakar BioEnginuity Hub Studio.`},
+    answer: `This semester, meetings will be held every Monday from 7-8 pm at the Cheit C320.`},
 ]
 
 
@@ -334,12 +328,12 @@ const recruitment_events = [
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`},
-    {event: "Diversity in Business Night (January 25)", dateTime: "Wells Fargo Room - C420 Cheit, 8-9 PM",
+    {event: "Diversity in Business Night (January 25)", dateTime: "Cheit 210, 8-9 PM",
     description: `We highly recommend you come out to our Diversity in Business Night to learn about a wide range of impacts you can have in different Business clubs on campus. The term "diversity" has multiple layers behind it, so we are proud to partner with 3 amazing organizations to share our unique experiences with prospective applicants. After hearing about each club, you can also use the rest of the evening to network with members from all 4 organizations and stay for Phoenix's second Infosession from 9-10!`},
-    {event: "Infosession 2 (January 25)", dateTime: "Wells Fargo Room - C420 Cheit, 9-10 PM",
+    {event: "Infosession 2 (January 25)", dateTime: "Cheit 210, 9-10 PM",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`},
-    {event: "Case Workshop (January 26)", dateTime: "Dwinelle 2nd floor rooms, TBD",
+    {event: "Case Workshop (January 26)", dateTime: "Dwinelle 255",
     description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
     then split into smaller groups and go through an example case together.`},
     {event: "Application Due (January 27)", dateTime: "4:00 PM. We will have a grace period of 10 minutes.",
