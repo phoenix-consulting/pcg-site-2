@@ -48,6 +48,7 @@ const NavBar = (props) => {
                 <Container className={styles.navContainer}>
                     <Navbar.Brand>
                         <Link to='/'>
+                        <img src={dark} style={{width:200}}></img>
                         {isLight ? (
                             <Img
                             fixed={light}
