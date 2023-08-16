@@ -29,14 +29,14 @@ const ApplyTimeline = () => {
     })
     return (
         <div>
-            <InfoSec background="gray" alignment="center" regtitle="Fall 2022 Recruitment Timeline" subtitle="All times are shown in PST." >
+            <InfoSec background="gray" alignment="center" regtitle="Spring 2023 Recruitment Timeline" subtitle="All times are shown in PST." >
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
                 <Button className={styles.Button}
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf6kb6X-5S5LmttfMvlu2Q8Ri_FPxly8ipvasKhgsQ2HwFwJQ/viewform">
+                href="https://forms.gle/c4xcQVSeyJRMYhvS6">
                     Coffee Chat Us!</Button>
                 <Button className={styles.Button} 
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe5oXDM2dPMHRLdVmO9gjTEdb0iBD6GedQLki-qqyxyLRydRw/viewform">
+                href="https://forms.gle/ssxNRWzotyJC24CD9">
                     Mailing List</Button>
             </div>
 

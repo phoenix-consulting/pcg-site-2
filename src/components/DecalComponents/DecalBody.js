@@ -41,7 +41,7 @@ const DecalBody = () => {
             )
         })
 
-    const pastProjectCards = decal_instructors.map((projObj) => {
+    const staff = decal_instructors.map((projObj) => {
             return (
                 <Col style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div className={styles.cardWrapper}>
@@ -63,7 +63,7 @@ const DecalBody = () => {
             <img src={instructors[0]} className={styles.cardImage}/>
             <InfoSec
                 regtitle="Course Description"
-                smallsubtitle="Introduction to Healthcare Consulting is an 11-week long introductory course designed for students with an interest in business or healthcare."
+                smallsubtitle="Introduction to Healthcare Consulting is a 10-week long introductory course designed for students with an interest in business or healthcare."
                 smallsubtitle2="The first few weeks of the course are lecture-based and will delve into the variety of careers in healthcare, current problems in the industry, and provide an introduction to adjacent fields such as biotechnology and pharmaceuticals."
                 smallsubtitle3="The second half of the course will be focused on group work, simulating a healthcare consulting case and equipping students with the fundamental skills required to pursue a career in healthcare consulting. Overall, this course will provide students with an engaging and comprehensive look into healthcare consulting and adjacent industries."
                 background="gray"
@@ -89,7 +89,7 @@ const DecalBody = () => {
             smallsubtitle=""
             background="gray">
             <Row lg={3}>
-                {pastProjectCards}
+                {staff}
             </Row>
             </InfoSec>
 
@@ -97,15 +97,7 @@ const DecalBody = () => {
                 <div style={{textAlign:'center', marginTop:-40, marginBottom:30, fontWeight:'bold', fontSize: 27}}>
                     Course Mentors
                 </div>
-                <div className='DecalCol' style={{float: 'left', width:'30%', marginRight:20, textAlign:'center'}}>
-                    <div style={{paddingBottom: 20, fontSize: 24, fontWeight: 'bold'}}>
-                        Richard Harland
-                    </div>
-                    <div>
-                        Richard Harland is a Professor of Genetics, Genomics, and Development and has a highly specialized technical background in biology. 
-                    </div>
-                </div>
-                <div className='DecalCol' style={{display: 'inline-block', width:'30%', marginLeft:40, textAlign:'center'}}>
+                <div className='DecalCol' style={{display: 'inline-block', width:'30%', marginLeft:150, textAlign:'center'}}>
                     <div style={{paddingBottom: 20, fontSize: 24, fontWeight: 'bold'}}>
                         Darren Cooke
                     </div>
@@ -113,7 +105,7 @@ const DecalBody = () => {
                         Darren Cooke is the Executive Director of Berkeley’s Life Sciences Entrepreneurship Center and has a rich background in healthcare, business, and entrepreneurship. 
                     </div>
                 </div>
-                <div className='DecalCol' style={{float: 'right', width:'30%', marginLeft: 20, textAlign:'center'}}>
+                <div className='DecalCol' style={{float: 'right', width:'30%', marginLeft: 20, textAlign:'center', marginRight:150}}>
                     <div style={{paddingBottom: 20, fontSize: 24, fontWeight: 'bold'}}>
                         Biotech Connection Bay Area
                     </div>

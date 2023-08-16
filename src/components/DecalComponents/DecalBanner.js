@@ -5,7 +5,7 @@ const DecalBanner = () => {
     return (
         <div>
             <Banner
-                title="UGBA 98"
+                title="UGBA 198"
                 message="Introduction to Healthcare Consulting DeCal"
                 subMessage="Introductory Course for students interested in the intersection of biology and business."
                 bg="grey"
