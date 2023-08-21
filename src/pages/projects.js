@@ -6,6 +6,7 @@ import ProjectsCarousel from '../components/ProjectsComponents/ProjectsCarousel'
 import ProjectsServices from '../components/ProjectsComponents/ProjectsServices'
 import ProjectsTimeline from '../components/ProjectsComponents/ProjectsTimeline'
 import PastProjects from '../components/ProjectsComponents/PastProjects'
+import ProjectsCurr from '../components/ProjectsComponents/ProjectsCurr'
 
 const Projects = () => {
     return (
@@ -15,6 +16,7 @@ const Projects = () => {
             <ProjectsBanner/>
             <ProjectsServices/>
             <ProjectsTimeline/>
+            <ProjectsCurr/>
             <PastProjects/>
             <ProjectsCarousel/>
         </Layout>

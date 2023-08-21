@@ -71,8 +71,8 @@ const NavBar = (props) => {
                             <Link to='/projects' className={navLinkStyles.join(' ')}>Projects</Link>
                         </Nav.Item>
                         <Nav.Item className={styles.navlinkBox}>
-                            <a href="https://medium.com/@phoenixconsulting" className={navLinkStyles.join(' ')}>Blog</a>
-                        </Nav.Item>
+                            <Link to='/members' className={navLinkStyles.join(' ')}>Members</Link>
+                        </Nav.Item> 
                         <Nav.Item className={styles.navlinkBox}>
                             <Link to='/apply' className={navLinkStyles.join(' ')}>Join</Link>
                         </Nav.Item>

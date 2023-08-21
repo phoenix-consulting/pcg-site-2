@@ -4,7 +4,6 @@ import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/Footer/Footer'
 import HomeBanner from '../components/HomeComponents/HomeBanner'
 import HomeAbout from '../components/HomeComponents/HomeAbout'
-import HomeCurr from '../components/HomeComponents/HomeCurr'
 import HomeContact from '../components/HomeComponents/HomeContact'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import BackgroundImage from 'gatsby-background-image'
@@ -34,8 +33,6 @@ const Home = () => {
         <HomeBanner/>
         <HomeAbout/>
       </BackgroundImage>
-      
-      <HomeCurr/>
       <HomeContact/>
       <Footer/>
     </div>

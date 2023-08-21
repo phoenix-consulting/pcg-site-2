@@ -59,8 +59,8 @@ const curr_sem_projs = [
     description: `DELL is a multinational electronics & technology company that is actively exploring how to improve the digitalization of health via modernized IT, virtual health delivery, and securing/storing healthcare data. Phoenix conducted market research to determine how DELL can become a leader in the life sciences data management space through addressing unmet customer needs.`,
   },
   {
-    name: "Client: Medable",
-    description: `Medable, a Series D startup specializing in decentralized clinical trials (DCTs) is changing the way clinical trials are performed. With innovative techniques, Medable has converted key facets of trials into virtual forms, increasing access and accuracy.  Phoenix helped Medable identify and tackle growing therapeutic areas to differentiate them from their competitors in the general clinical trials space.`,
+    name: "Client: Clearpoint",
+    description: `Clearpoint, a Series D startup specializing in decentralized clinical trials (DCTs) is changing the way clinical trials are performed. With innovative techniques, Medable has converted key facets of trials into virtual forms, increasing access and accuracy.  Phoenix helped Medable identify and tackle growing therapeutic areas to differentiate them from their competitors in the general clinical trials space.`,
   },
   {
     name: "Client: NExTNET",
