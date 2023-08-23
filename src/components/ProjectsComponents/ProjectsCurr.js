@@ -25,20 +25,6 @@ const ProjectsCurr = () => {
             >
             </InfoCard>
             </div>
-
-
-
-
-            // <Col sm>
-            //     <Card className={styles.cardStyle}>
-            //         <Card.Body>
-            //             <Card.Title className={styles.cardTitleStyle}>{cardObj.name}</Card.Title>
-            //             <Card.Text>
-            //                 {cardObj.description}
-            //             </Card.Text>
-            //         </Card.Body>
-            //     </Card>
-            // </Col>
         )
     })
 

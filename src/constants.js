@@ -393,55 +393,60 @@ const past_projects = [
 const recruitment_events = [
   {
     event: "Coffee Chats",
-    dateTime: "January 17-27",
-    description: `https://forms.gle/c4xcQVSeyJRMYhvS6`,
+    dateTime: "August 22-31",
+    description: `Schedule a chat with a Phoenix member to get to know them and learn more about the club!`,
   },
   {
-    event: "Infosession 1 (January 23)",
-    dateTime: "Evans 60, 8-10 PM",
+    event: "Infosession 1",
+    dateTime: "August 28th, 8-10 PM",
     description: `Come meet our members and learn about Phoenix! 
     We'd definitely like to meet you, no matter your major, year, or experience level. 
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`,
   },
   {
-    event: "Diversity in Business Night (January 25)",
-    dateTime: "Chou n100, 8-9 PM",
+    event: "Diversity in Business Night",
+    dateTime: "August 29th, 8-9 PM",
     description: `We highly recommend you come out to our Diversity in Business Night to learn about a wide range of impacts you can have in different Business clubs on campus. The term "diversity" has multiple layers behind it, so we are proud to partner with 3 amazing organizations to share our unique experiences with prospective applicants. After hearing about each club, you can also use the rest of the evening to network with members from all 4 organizations and stay for Phoenix's second Infosession from 9-10!`,
   },
   {
-    event: "Infosession 2 (January 25)",
-    dateTime: "Chou n100, 9-10 PM",
+    event: "Infosession 2 ",
+    dateTime: "August 29th, 9-10 PM",
     description: `Infosession 2 will be very similar to Infosession 1—attend whichever one works best for you! We'll talk about our 
     projects, socials, and memories.`,
   },
   {
-    event: "Case Workshop (January 26)",
-    dateTime: "Dwinelle 255, 8-10 PM",
+    event: "Networking Session ",
+    dateTime: "August 30th, 7-9 PM @ Haas Courtyard",
+    description: `This in person networking session will be a great opportunity for you to meet the current Phoenix members in person! The dress code is business casual.`,
+  },
+  {
+    event: "Case Workshop ",
+    dateTime: "August 31st, 9-10 PM",
     description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
     then split into smaller groups and go through an example case together.`,
   },
   {
-    event: "Application Due (January 27)",
-    dateTime: "4:00 PM. We will have a grace period of 10 minutes.",
+    event: "Application Due ",
+    dateTime: "September 1st, 4:00 PM",
     description: `Our application involves a couple of short answer questions and uploading a few documents like your resume.
     Check out our recruitment guide and our FAQ for tips.`,
   },
   {
-    event: "Individual Interviews (January 28)",
-    dateTime: "Location TBD",
+    event: "Individual Interviews ",
+    dateTime: "September 2nd, Location TBD",
     description: `After we review applications, some candidates will be invited to schedule individual interviews. The interviews
     will have a behavioral and a case component. Check out our recruitment guide for tips on preparation.`,
   },
   {
-    event: "Social Night (January 28)",
-    dateTime: "Location TBD",
+    event: "Social Night ",
+    dateTime: "September 2nd, Location TBD",
     description: `We'll invite successful first round candidates to a virtual social event! This event doesn't
     factor into your candidacy, and it's your chance to meet members in a
     more casual setting. In other words, it's a chance for you to see if we're a good fit for you. `,
   },
   {
-    event: "Group Interviews (January 29)",
-    dateTime: "Location TBD",
+    event: "Group Interviews ",
+    dateTime: "September 2nd, Location TBD",
     description: `Our final round interviews involve a more complex case than the individual round, one that's hard to
     solve unless you work effectively with your group. For tips on how to prepare, check out our recruitment guide.`,
   },

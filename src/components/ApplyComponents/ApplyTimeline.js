@@ -29,14 +29,14 @@ const ApplyTimeline = () => {
     })
     return (
         <div>
-            <InfoSec background="gray" alignment="center" regtitle="Spring 2023 Recruitment Timeline" subtitle="All times are shown in PST." >
+            <InfoSec background="gray" alignment="center" regtitle="Fall 2023 Recruitment Timeline" subtitle="All times are shown in PST." >
             {/* <div className={styles.timelineBigTitle}>Recruitment Timeline</div> */}
             <div className={styles.buttonContainer}>
                 <Button className={styles.Button}
-                href="https://forms.gle/c4xcQVSeyJRMYhvS6">
+                href="https://forms.gle/JfKxLGaRbRMtic216">
                     Coffee Chat Us!</Button>
                 <Button className={styles.Button} 
-                href="https://forms.gle/ssxNRWzotyJC24CD9">
+                href="https://forms.gle/BBKXcDf7idwPcqdQ8">
                     Mailing List</Button>
             </div>
 

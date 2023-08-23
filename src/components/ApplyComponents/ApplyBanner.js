@@ -7,8 +7,8 @@ const ApplyBanner = () => {
     return (
         <div>
             <Banner
-                title="RECRUITMENT SPRING 2023"
-                message="Hey there! Phoenix is currently recruiting its Spring 2023 class. Check out our LinkTree and resources on this page for more information. 
+                title="RECRUITMENT FALL 2023"
+                message="Hey there! Phoenix is currently recruiting its Fall 2023 class. Check out our LinkTree and resources on this page for more information. 
                 We're excited to meet you!"
                 buttonMsg="LinkTree &#8594;"
                 buttonLink="https://linktr.ee/phoenixrecruitment"
