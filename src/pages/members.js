@@ -9,7 +9,7 @@ const Members = () => {
         <div>
         <SEO title="Members"/>
         <Layout light={false}>
-            {/* <MembersBanner/> */}
+            <MembersBanner/>
             <MembersAirtable/>
         </Layout>
         </div>

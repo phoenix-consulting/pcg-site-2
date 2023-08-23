@@ -7,11 +7,11 @@ const MembersBanner = () => {
     return (
         <div>
             <Banner
-                title="MEET PHOENIX"
-                message="Feel free to reach out to any of our members to schedule a coffee chat! Fill out the form on the 'Join' page to schedule a coffee chat, or also feel free to reach out to any of our members directly!"
+                title="MEET THE MEMBERS"
+                message="Feel free to reach out to any of our members to schedule a coffee chat, or also feel free to reach out to any of our members directly!"
                 bg="gray"
-                buttonMsg="Latest Updates &#8594;"
-                buttonLink="https://medium.com/@phoenixconsulting"
+                buttonMsg="Coffee Chat Us! &#8594;"
+                buttonLink="https://forms.gle/BCwYA117DrVJFvXa9"
             >
             </Banner>
         </div>
