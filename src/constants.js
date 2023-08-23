@@ -393,7 +393,7 @@ const past_projects = [
 const recruitment_events = [
   {
     event: "Coffee Chats",
-    dateTime: "August 22-31",
+    dateTime: "August 22th - 31st",
     description: `Schedule a chat with a Phoenix member to get to know them and learn more about the club!`,
   },
   {
@@ -404,9 +404,9 @@ const recruitment_events = [
     We'll share with you some of our past projects, socials, trainings, and favorite memories.`,
   },
   {
-    event: "Diversity in Business Night",
+    event: "Womxn's Night",
     dateTime: "August 29th, 8-9 PM",
-    description: `We highly recommend you come out to our Diversity in Business Night to learn about a wide range of impacts you can have in different Business clubs on campus. The term "diversity" has multiple layers behind it, so we are proud to partner with 3 amazing organizations to share our unique experiences with prospective applicants. After hearing about each club, you can also use the rest of the evening to network with members from all 4 organizations and stay for Phoenix's second Infosession from 9-10!`,
+    description: `We highly recommend that all female-identifying applicants come out to our Womxn's Night to hear the womxn of Phoenix speak about our experiences in the fields of healthcare and business. We are passionate about promoting inclusion and equity in all aspects of the work we do, and are excited to connect with the unique experiences of our prospective applicants. We will be providing exclusive professional development and networking opportunities. Don't miss out!`,
   },
   {
     event: "Infosession 2 ",
@@ -421,7 +421,7 @@ const recruitment_events = [
   },
   {
     event: "Case Workshop ",
-    dateTime: "August 31st, 9-10 PM",
+    dateTime: "August 31st, 8-10 PM",
     description: `The case workshop is highly recommended for all applicants. We'll walk you through some tips and tricks for success on our cases,
     then split into smaller groups and go through an example case together.`,
   },
@@ -446,7 +446,7 @@ const recruitment_events = [
   },
   {
     event: "Group Interviews ",
-    dateTime: "September 2nd, Location TBD",
+    dateTime: "September 3rd, Location TBD",
     description: `Our final round interviews involve a more complex case than the individual round, one that's hard to
     solve unless you work effectively with your group. For tips on how to prepare, check out our recruitment guide.`,
   },
