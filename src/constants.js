@@ -276,39 +276,53 @@ const project_timeline = [
 
 const decal_instructors = [
   {
-    name: "Ayushi Balan",
-    role: "Instructor",
-    image:
-      "https://drive.google.com/uc?export=view&id=1qOEob6nAwqZyqi_3nDfbThauAN73NZ2u",
-    pronouns: "She/Her/Hers",
-  },
-  {
     name: "Angeline Tu",
-    role: "Instructor",
+    role: "Lead Facilitator",
     pronouns: "She/Her/Hers",
     image:
       "https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
   },
   {
-    name: "Ishan Balakrishnan",
+    name: "Owen Gozali",
     role: "TA",
     pronouns: "He/Him/His",
     image:
-      "https://drive.google.com/uc?export=view&id=1gUpZX-48asRX6FsbgscmfGyD_Kd_e5nB",
+      "https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
   },
   {
-    name: "Brightan Ying",
-    role: "TA",
-    pronouns: "He/Him/His",
-    image:
-      "https://drive.google.com/uc?export=view&id=1ybxkaZK7p7JHJCH9ZWM81n-lVS4Efzr1",
-  },
-  {
-    name: "Alexis Balashov",
+    name: "Yilin Shi",
     role: "TA",
     pronouns: "She/Her/Hers",
     image:
-      "https://drive.google.com/uc?export=view&id=1ekJpbmAKM-Ip-dE0-QoKxsi6uxcDkeWn",
+      "https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
+  },
+  {
+    name: "Rose Du",
+    role: "TA",
+    pronouns: "She/Her/Hers",
+    image:
+      "https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
+  },
+  {
+    name: "Eric Yin",
+    role: "TA",
+    pronouns: "He/Him/His",
+    image:
+      "https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
+  },
+  {
+    name: "Balaji Ganapathi",
+    role: "TA",
+    pronouns: "He/Him/His",
+    image:
+      "https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
+  },
+  {
+    name: "Anya Sikri",
+    role: "TA",
+    pronouns: "She/Her/Hers",
+    image:
+      "https://drive.google.com/uc?export=view&id=1mBn2-2bsrZkBsZ1kPC0kqPyw93i2yY8L",
   },
 ]
 
@@ -323,7 +337,7 @@ const decal_faq_questions = [
   },
   {
     question: "When is it?",
-    answer: `This semester, meetings will be held every Monday from 7-8 pm at the Cheit C320.`,
+    answer: `This semester, meetings will be held every Monday from 7-8 pm at Cheit C320.`,
   },
 ]
 
