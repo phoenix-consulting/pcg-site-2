@@ -10,7 +10,7 @@ const DecalBanner = () => {
                 subMessage="Introductory course for students interested in the intersection of biology and business."
                 bg="grey"
                 buttonMsg="Apply &#8594;"
-                buttonLink="https://docs.google.com/forms/d/1cq3E_5KVcHJUH9LAwlFmdz3XnEw6Tc2ymNqpY5vwoB4/edit"
+                buttonLink="https://forms.gle/YsToRHjWkaZSaf7MA"
             >
             </Banner>
         </div>
