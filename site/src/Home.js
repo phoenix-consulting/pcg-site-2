@@ -81,9 +81,6 @@ function Home() {
             put a card here or smt, just build a sexy reusable element for future use so we can recycle it
             (4 clients + health engine + random acessibility stuff)
           </div>
-          <div>
-            Read more about our projects here. (link this boi to projects tab)
-          </div>
         </div>
 
         <div className="bg-slate-200 mt-10">
